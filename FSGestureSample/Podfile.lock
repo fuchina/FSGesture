@@ -1,0 +1,16 @@
+PODS:
+  - FSGesture (0.0.1)
+
+DEPENDENCIES:
+  - FSGesture (from `../`)
+
+EXTERNAL SOURCES:
+  FSGesture:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSGesture: bc22fe7cbbcc2430980b8a34b5b41b4712c11236
+
+PODFILE CHECKSUM: 18e473116406f5b86ce9510142c274d665fcab7f
+
+COCOAPODS: 1.6.0.beta.2

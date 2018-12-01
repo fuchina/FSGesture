@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A37020D772AA406810A0211AEBD399 /* FSGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D389E7F000B2A96057AFD3ABADD98F87 /* FSGesture-dummy.m */; };
+		7A496F72A72E780B7971DA780CE14F38 /* FSCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F855FA479C1721E735780E7252B33E6B /* FSCircleLayer.m */; };
+		9FE8C43997D416663EA651CC9C769193 /* FSGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0063A605663661235041BDD1CA1534F /* FSGestureView.m */; };
+		C255921BF3F3F0233D5484056450925C /* Pods-FSGestureSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15780457FD8416E4F2B786EFD144C64D /* Pods-FSGestureSample-dummy.m */; };
+		E31F7E2C3A79C3BAC67285FB108B080E /* FSGestureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A36B8D5C613B2A142C53DDC5068F3C7 /* FSGestureView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF88851AA1AC3624D7D8441814EC0F1D /* FSCircleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FBD8A52AEE4A729787727E76687156 /* FSCircleLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09A54789483AB0C8AD8964D49CC7580B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839272A1C641D6A6066FA48BC23E9A0E;
+			remoteInfo = FSGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15780457FD8416E4F2B786EFD144C64D /* Pods-FSGestureSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSGestureSample-dummy.m"; sourceTree = "<group>"; };
+		2FF37CAD0BC5669F979B07D103F44C09 /* Pods-FSGestureSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSGestureSample.release.xcconfig"; sourceTree = "<group>"; };
+		41AABBF0DFAADCDCFDB4646669460558 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46FBD8A52AEE4A729787727E76687156 /* FSCircleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCircleLayer.h; path = Classes/FSCircleLayer.h; sourceTree = "<group>"; };
+		4748A12280C7D00F6DEA55950B123E44 /* libPods-FSGestureSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FSGestureSample.a"; path = "libPods-FSGestureSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A36B8D5C613B2A142C53DDC5068F3C7 /* FSGestureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSGestureView.h; path = Classes/FSGestureView.h; sourceTree = "<group>"; };
+		5CEDFC3D6AA0681A1FC9D6FE431C6A63 /* Pods-FSGestureSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSGestureSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B03ED347503B1EE58E64F663EF3F5F48 /* FSGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSGesture-prefix.pch"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B6126A4E9704967BD110DC5F9378BC05 /* Pods-FSGestureSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSGestureSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6782F05FE1CC8121462171D41BE28DF /* FSGesture.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FSGesture.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0063A605663661235041BDD1CA1534F /* FSGestureView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSGestureView.m; path = Classes/FSGestureView.m; sourceTree = "<group>"; };
+		D389E7F000B2A96057AFD3ABADD98F87 /* FSGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSGesture-dummy.m"; sourceTree = "<group>"; };
+		DCF523D451352CAD1000100864D895F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E943C767345160699EE3D6184E22AF13 /* libFSGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFSGesture.a; path = libFSGesture.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F855FA479C1721E735780E7252B33E6B /* FSCircleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCircleLayer.m; path = Classes/FSCircleLayer.m; sourceTree = "<group>"; };
+		FB979306224FFE7946C26F436F8537B0 /* Pods-FSGestureSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSGestureSample.debug.xcconfig"; sourceTree = "<group>"; };
+		FC144FC5F4C8485D91545342C69BCEC2 /* FSGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSGesture.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		151DA8E212C6F0746FC9723639250879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDA22C410619A7AB49D8F70FEB141CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E5177C2E4F2AC25DF8E50A5A6325FDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E943C767345160699EE3D6184E22AF13 /* libFSGesture.a */,
+				4748A12280C7D00F6DEA55950B123E44 /* libPods-FSGestureSample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E1212ECCFF2F1B76ED0CC76111A99FB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B7622A0BC70C774D1CCD178B449DAC0 /* Pods-FSGestureSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4B7622A0BC70C774D1CCD178B449DAC0 /* Pods-FSGestureSample */ = {
+			isa = PBXGroup;
+			children = (
+				5CEDFC3D6AA0681A1FC9D6FE431C6A63 /* Pods-FSGestureSample-acknowledgements.markdown */,
+				B6126A4E9704967BD110DC5F9378BC05 /* Pods-FSGestureSample-acknowledgements.plist */,
+				15780457FD8416E4F2B786EFD144C64D /* Pods-FSGestureSample-dummy.m */,
+				FB979306224FFE7946C26F436F8537B0 /* Pods-FSGestureSample.debug.xcconfig */,
+				2FF37CAD0BC5669F979B07D103F44C09 /* Pods-FSGestureSample.release.xcconfig */,
+			);
+			name = "Pods-FSGestureSample";
+			path = "Target Support Files/Pods-FSGestureSample";
+			sourceTree = "<group>";
+		};
+		4D6B6EF6340D9B8F172163E316DDBF3A /* FSGesture */ = {
+			isa = PBXGroup;
+			children = (
+				46FBD8A52AEE4A729787727E76687156 /* FSCircleLayer.h */,
+				F855FA479C1721E735780E7252B33E6B /* FSCircleLayer.m */,
+				4A36B8D5C613B2A142C53DDC5068F3C7 /* FSGestureView.h */,
+				C0063A605663661235041BDD1CA1534F /* FSGestureView.m */,
+				B5399E8146AFF7FFC2DEEC2B2292DA8D /* Pod */,
+				F54A20BCAB8143F0940F23ED697DC34A /* Support Files */,
+			);
+			name = FSGesture;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				7DBFA8BE12C8519FC7EBB225F10B6383 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				1E5177C2E4F2AC25DF8E50A5A6325FDE /* Products */,
+				2E1212ECCFF2F1B76ED0CC76111A99FB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DBFA8BE12C8519FC7EBB225F10B6383 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D6B6EF6340D9B8F172163E316DDBF3A /* FSGesture */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B5399E8146AFF7FFC2DEEC2B2292DA8D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B6782F05FE1CC8121462171D41BE28DF /* FSGesture.podspec */,
+				DCF523D451352CAD1000100864D895F8 /* LICENSE */,
+				41AABBF0DFAADCDCFDB4646669460558 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F54A20BCAB8143F0940F23ED697DC34A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC144FC5F4C8485D91545342C69BCEC2 /* FSGesture.xcconfig */,
+				D389E7F000B2A96057AFD3ABADD98F87 /* FSGesture-dummy.m */,
+				B03ED347503B1EE58E64F663EF3F5F48 /* FSGesture-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "FSGestureSample/Pods/Target Support Files/FSGesture";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13C2FA95C854D9523F47D9E5829DBE1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185072D733B643D4EE0F5488DB7280F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF88851AA1AC3624D7D8441814EC0F1D /* FSCircleLayer.h in Headers */,
+				E31F7E2C3A79C3BAC67285FB108B080E /* FSGestureView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		839272A1C641D6A6066FA48BC23E9A0E /* FSGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A822483C614345F20AB99BBDAC3E92 /* Build configuration list for PBXNativeTarget "FSGesture" */;
+			buildPhases = (
+				185072D733B643D4EE0F5488DB7280F4 /* Headers */,
+				0ECD830EB903808439974C039D9360D9 /* Sources */,
+				151DA8E212C6F0746FC9723639250879 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSGesture;
+			productName = FSGesture;
+			productReference = E943C767345160699EE3D6184E22AF13 /* libFSGesture.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D8BB510473FA1665F93DDC759315D4A9 /* Pods-FSGestureSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64AE7B041A0147EBB61CE507EBBB4592 /* Build configuration list for PBXNativeTarget "Pods-FSGestureSample" */;
+			buildPhases = (
+				13C2FA95C854D9523F47D9E5829DBE1E /* Headers */,
+				C7235FBD552AB14CB3C2B7312639E903 /* Sources */,
+				ADDA22C410619A7AB49D8F70FEB141CC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35CCC07279FB16CEF9F2920BC86DE1A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-FSGestureSample";
+			productName = "Pods-FSGestureSample";
+			productReference = 4748A12280C7D00F6DEA55950B123E44 /* libPods-FSGestureSample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1E5177C2E4F2AC25DF8E50A5A6325FDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839272A1C641D6A6066FA48BC23E9A0E /* FSGesture */,
+				D8BB510473FA1665F93DDC759315D4A9 /* Pods-FSGestureSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ECD830EB903808439974C039D9360D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A496F72A72E780B7971DA780CE14F38 /* FSCircleLayer.m in Sources */,
+				08A37020D772AA406810A0211AEBD399 /* FSGesture-dummy.m in Sources */,
+				9FE8C43997D416663EA651CC9C769193 /* FSGestureView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7235FBD552AB14CB3C2B7312639E903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C255921BF3F3F0233D5484056450925C /* Pods-FSGestureSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35CCC07279FB16CEF9F2920BC86DE1A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSGesture;
+			target = 839272A1C641D6A6066FA48BC23E9A0E /* FSGesture */;
+			targetProxy = 09A54789483AB0C8AD8964D49CC7580B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FD77292BFD654A2C97D05D0834218BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC144FC5F4C8485D91545342C69BCEC2 /* FSGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSGesture/FSGesture-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSGesture;
+				PRODUCT_NAME = FSGesture;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D2AA14FA8F761C54AB22412A37B559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF37CAD0BC5669F979B07D103F44C09 /* Pods-FSGestureSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D6097414E77BDC69058B080F37C38EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC144FC5F4C8485D91545342C69BCEC2 /* FSGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSGesture/FSGesture-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSGesture;
+				PRODUCT_NAME = FSGesture;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDE16F23E54CDFC07EC331F465385D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB979306224FFE7946C26F436F8537B0 /* Pods-FSGestureSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64AE7B041A0147EBB61CE507EBBB4592 /* Build configuration list for PBXNativeTarget "Pods-FSGestureSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE16F23E54CDFC07EC331F465385D0D /* Debug */,
+				46D2AA14FA8F761C54AB22412A37B559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A822483C614345F20AB99BBDAC3E92 /* Build configuration list for PBXNativeTarget "FSGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D6097414E77BDC69058B080F37C38EB /* Debug */,
+				0FD77292BFD654A2C97D05D0834218BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
