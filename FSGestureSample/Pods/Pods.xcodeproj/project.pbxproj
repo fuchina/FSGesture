@@ -12,98 +12,100 @@
 		075EA0FA12F3F19DE8C0855855E61FEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */; };
 		0F02E726C6614EE7DCA112994FF36019 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA34F39C12BAD758DF5FA9A958B925B /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		117043A1E8D6EDE22D02EB78C3D2A8FB /* FSCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF05C36D126C73292C3B4E3734BC7F9 /* FSCalculator-dummy.m */; };
+		1441C35A7801DFD652325C265148ACBD /* FSUseGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CB88AC555115B62685485C20D31BB /* FSUseGestureView.m */; };
 		20B60736A6920326F36739CB191CF56E /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC748FE423A1896829EF96B97AE25908 /* MJRefreshStateHeader.m */; };
 		23BC255D2E99B44B99B7A999289E39E9 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F89E8231245AF972EF893B948051C /* MJRefreshNormalHeader.m */; };
-		245DB3B1329FEBE2DD9DED333C0EB01E /* FSVanView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC8738D22B98205EEA0A679D1AE94C5 /* FSVanView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		245DB3B1329FEBE2DD9DED333C0EB01E /* FSVanView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB75DBD5B932E0F2C6E7C5F6C3650372 /* FSVanView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		24EE7F855A360FE09B155C81E2993663 /* Pods-FSGestureSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EBF21B676375F1CB50AA5D534D6433 /* Pods-FSGestureSample-dummy.m */; };
 		27F6BC97DA7F9A4CA44912EB80F70DE8 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CC5AA7B0AB990C770EC9EA0CD12E96 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2B4F3AE1107718ABCE5018588267CA31 /* FSCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5306CD0FB82F6BA9C5BFF07202A08794 /* FSCalculator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		34AF1E86DC94CCE2F2724E23B171232D /* FSTapScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1374EF500CB5609112E4EDAD248580A /* FSTapScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3629D10D3DC33699F855EE80E30BD065 /* FSHalfView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8D45110F2D0D2D43F8099B8A65CBB /* FSHalfView.m */; };
+		34AF1E86DC94CCE2F2724E23B171232D /* FSTapScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = A57EF40FCAB7B7B8FE81B452643BA3ED /* FSTapScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3629D10D3DC33699F855EE80E30BD065 /* FSHalfView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BA6584175DF685EC088818E22D54CA /* FSHalfView.m */; };
 		367E476D022A9889CB7356AA14596720 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D6FD716761A30241E3F9114D1EB259 /* UIView+MJExtension.m */; };
 		3712DD4A3750B6C6228092BF950384F2 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C5E5CD61BFF3FBABD4117FA488FD84 /* MJRefreshAutoFooter.m */; };
-		3D1E47DC0B2DFB12E7D3558E1C3EC637 /* FSReuseTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F6915B4F78E15BCD0544EE53FC37F0 /* FSReuseTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D1E47DC0B2DFB12E7D3558E1C3EC637 /* FSReuseTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F04E2A10D097119A35D65EAA80797578 /* FSReuseTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3DEC5529B5CEC335B069C103098F9F58 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 873FB73D815536DE1196C7BB0B81ED80 /* MJRefreshBackFooter.m */; };
-		3F6236EEDF629F317583D791DD597C7B /* FSShopClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D71E5F94CBBDCBFF4C1DFF9E8BCFFC /* FSShopClassView.m */; };
+		3F6236EEDF629F317583D791DD597C7B /* FSShopClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D07718FE19CC8A8E1875D8A61933558 /* FSShopClassView.m */; };
 		40415B66DB412E3A69E1C40A984CD995 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E01A82E76DE734D443AD520C012E7E2F /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		41441ABF965117C0633AE4F494D2EC72 /* FSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BD3235B3A1B02F4A76FF9005FBF5B4 /* FSDatePickerView.m */; };
+		41441ABF965117C0633AE4F494D2EC72 /* FSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F45DB54C9E973C4E541B83F2A30DB /* FSDatePickerView.m */; };
 		4188DE7F382BD885940A1EB7852CFDD2 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2592D78A0F9D3B51137C77A0A896E5EB /* MJRefresh-dummy.m */; };
-		474AFFF06DD79F3B2CDBEB60777CE919 /* FSDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C855497CDA0AB856491B08EBE02E455C /* FSDatePickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		474AFFF06DD79F3B2CDBEB60777CE919 /* FSDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8264A03CC7510CB00530BEB8E18FE427 /* FSDatePickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		497887A7B4418DE0CE975EB2F5BD2BB8 /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2D195201664BF7D41A672D17F00AC0 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49CFEC0A610B920D205C5C07E77F68BA /* FSCircleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A5BF66F3D390DCDB3F74A7D8787C10D5 /* FSCircleLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4E27FD34615CEDD2B80FA1A55BDAF116 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */; };
 		4E564AAF33735822070F1CEAB6D37E34 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8DFBDB1A8FD07E3D169A7572A6F2EF /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50B387B26BFE6446F751DDDFA91B3E24 /* FSCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E69183BE051F92ACB34698DABCC6CD4C /* FSCircleLayer.m */; };
 		525003A94148BE19706726A2D4D01DDD /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D1E2D1865EE5DE4BD05A86B9203BFB /* MJRefreshAutoNormalFooter.m */; };
 		56716999524BEB0893FAB1F4E19E820C /* FSCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = E09F5B7E5662B7C8F22EEDD9C24B01A6 /* FSCalculator.m */; };
-		60C2441476D2D32F825DA5C0D3D352E1 /* FSTapCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFF95ABA1C4CCF9B11C6D113C3E0909 /* FSTapCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6237EF8CF7C19DA9BA72156468E16CB3 /* FSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEC54C30F3A4E7C960BB18CC7F733DF /* FSLabel.m */; };
-		630B5D4E55B5C71C7B66CA5664035045 /* UIView+ModalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330A7CD3F9EB103D814553760AEA32E /* UIView+ModalAnimation.m */; };
+		60C2441476D2D32F825DA5C0D3D352E1 /* FSTapCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6334EC62BEC399D77806FD1DBFBA8102 /* FSTapCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6237EF8CF7C19DA9BA72156468E16CB3 /* FSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 223F70C073B33433AD2D77213C1008B2 /* FSLabel.m */; };
+		630B5D4E55B5C71C7B66CA5664035045 /* UIView+ModalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0550F1C6DF160DDB4378938F14185E85 /* UIView+ModalAnimation.m */; };
 		6357D87B45904AA4DCAAE8EDBCD04C17 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DBF1100EA5E584DFBB1A0EF2EBCFB0 /* UIScrollView+MJExtension.m */; };
-		652E40D56CB70BBC56E47B6A008F42FE /* PHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAED0D4585B347D6DEE701D2EFD061D9 /* PHTextView.m */; };
-		6B7681A9FC4892D1AE154391D561008B /* FSGestureView.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF55C7F6D276F7FA7BA3EFEA143B6CB /* FSGestureView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		652E40D56CB70BBC56E47B6A008F42FE /* PHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 339AA88C65F3E82AFCB0D71866A9E96E /* PHTextView.m */; };
 		7136B4EA10F4A46CE4843AAABB12E393 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ACA7F0CE7B1E8651E543AEB545E7E9 /* MJRefreshHeader.m */; };
-		735714AA1CCEA13DF1DE463F684DB2C8 /* FSLabelTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E26019D5369CDC18FDDFF4C830A47E /* FSLabelTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7403DD36A46FE8D75239EB30E7EF7E6D /* FSLeftItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48821C159B3973C6A5D7AEF409B75815 /* FSLeftItem.m */; };
+		735714AA1CCEA13DF1DE463F684DB2C8 /* FSLabelTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0DC4586E4884D924200B3D1B436ADD /* FSLabelTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7403DD36A46FE8D75239EB30E7EF7E6D /* FSLeftItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F61EC4316D2681490F0524C0D577E1 /* FSLeftItem.m */; };
 		7558A67EABB736DC21AC2E8BF4E9D0A9 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = AC796DBF4E802C17571172827E73C571 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		772406EBE110686DEED992A7D9C84FFE /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FB50CEF41FA755DFFFB7601540BF0E /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7B3C8EF50742F44B4F654559D05CA72C /* PHTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FA05C4456D09503883914C223B59C0 /* PHTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7BC7A576ECE79DFCC0D012674CC2833F /* FSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF859E7A705E900485D266B461EA970 /* FSImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B3C8EF50742F44B4F654559D05CA72C /* PHTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF653A2F107A26A632EC69F5CFABACCA /* PHTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BC7A576ECE79DFCC0D012674CC2833F /* FSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 31CC897185831A4EE0B0A2C73AAEB336 /* FSImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7BED5DF1445DE99B79841494B12417D7 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CB643D98D9BC3183DA345E748FE801D1 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7C400274268E799D6EB4D46AB175EE5B /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BCB90D4EA7A5FBA499BDBFF87E2073 /* UIViewExt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C400274268E799D6EB4D46AB175EE5B /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = A10F7FEFD185F68422CCF8A8CFAC76C1 /* UIViewExt.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7C9D5D9C098E50906AA21628527D74C6 /* FSWindow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3003A91FBA9C5022150B12957D21049 /* FSWindow-dummy.m */; };
+		7E5339EF67EDB5836B33B1102E25C68E /* FSGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 789EC2DC1C8FB424C5003C271445A917 /* FSGesture-dummy.m */; };
 		7F88ADBD19F247F14A21A781E3B2DC65 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B46A532FB4B34EC844FC886CF0B0E15 /* MJRefreshAutoStateFooter.m */; };
-		8153D967B0FBC48477746506F6520216 /* FSLeftItem.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4483A8E575D119E909624611F469F8 /* FSLeftItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8153D967B0FBC48477746506F6520216 /* FSLeftItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8E2674693FE7198284500E342A413C /* FSLeftItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		88C236076B7D1CF7753B049809C380C5 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE95141F077116A598B8D3159B66180 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8A35964474FA82B5CAE284401FD6C0A3 /* FSTitleContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6576039B2044694BA4371319AAC54FA4 /* FSTitleContentView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8B1E0FEB41A7C796DD7F67010B082212 /* FSViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFE76779BA17BF04D524C2B43C0DB /* FSViewManager.m */; };
-		8B4626FA0EEB530A60C73A9DD1E52723 /* FSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE1B3D68B376D459FC241500A6817EF /* FSImage.m */; };
-		90BDF1BA28FCC4C2E39CCD23919C8052 /* FSUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E26951A38E8ADC3EFF6C23D7A6EDAC60 /* FSUIKit.m */; };
+		8A35964474FA82B5CAE284401FD6C0A3 /* FSTitleContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88735BAD356DB62FDA38BA1D0C5D2BF6 /* FSTitleContentView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B1E0FEB41A7C796DD7F67010B082212 /* FSViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2752B3D8FB5781C34AA721501CD0A2D7 /* FSViewManager.m */; };
+		8B4626FA0EEB530A60C73A9DD1E52723 /* FSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7DD4D8051568C592EC549C788332BB /* FSImage.m */; };
+		90BDF1BA28FCC4C2E39CCD23919C8052 /* FSUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7820CE171C6DB1BA45CCBA455AA2B284 /* FSUIKit.m */; };
 		92A22BE4AF51D80D0104411C0057B00C /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 165E83E814973FBA7E284AA35A2A42F8 /* MJRefresh.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9307C368276C8D38089EE4FE94C73033 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E505D8E99AADB6CF3CD267765E1FC88 /* MJRefreshBackGifFooter.m */; };
-		94957C0EC86FADB82314379CE159D89F /* FSDBJeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCDE8D3383563C62EE63329E58D71B9 /* FSDBJeView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94957C0EC86FADB82314379CE159D89F /* FSDBJeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABE81460082CAEE6A995997F482C43D /* FSDBJeView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		96B9FE9FDA889C121C6A9A1148FB1208 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 72DB4214210084F93923383CC89C99F7 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		994BD4C157D0FF754CC3708D74CA6B04 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 309B5D43F1C343AA54A3C24B835BF434 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9962749941DFD0FA8A720B17C99348E2 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB9555705E4F89056D67A911BD6E048 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9BC17EF7F25DF580F83F2808DE70110A /* FSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = A034086798C7A2FD7094DA8E253E71A1 /* FSLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9C01ACEAF6EF165275C114276EF77E40 /* FSHalfView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8363D4BC6BC8BC1F8E0DDBBE7AD79B /* FSHalfView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BC17EF7F25DF580F83F2808DE70110A /* FSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D09389999F1431E2CAFC8DB2935CBAD /* FSLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C01ACEAF6EF165275C114276EF77E40 /* FSHalfView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78324C2E3684ED5EF8033C85E4E7C3DC /* FSHalfView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9CEB841CF89BFB1FCB915D4A139455FA /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = EB93F7F6C6FF2B926B9DE2383A028418 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9D16EFFB452E2918E7BF8EE62448AEAB /* FSCircleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4DA2613C975DA8D210D0CECEA1700B /* FSCircleLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9D8EDEBB6F958D031E937FADA18AFC9D /* FSTitleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 430135A7CB0A8196E6CC97AF4C0F1BAF /* FSTitleContentView.m */; };
+		9D8EDEBB6F958D031E937FADA18AFC9D /* FSTitleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF97D305AF1F75CB34605C2A047EE99C /* FSTitleContentView.m */; };
 		A0105E9D5EA48AEFC2899DD7AA728F6C /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 888184E9FB38C2ABD8908446DC2D36FE /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A89C5348B7AE850BBCE5E379CC376CBD /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2DD44A53654787EFA9B4728AA024B0 /* MJRefreshGifHeader.m */; };
-		A9AC87BFB773DFEEACCF805718DD5D65 /* FSTapScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9509731804683CC757C4A0F6DCD2D4E /* FSTapScrollView.m */; };
-		AAF7993E244E837932195E0F2A0EE65E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */; };
+		A9AC87BFB773DFEEACCF805718DD5D65 /* FSTapScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68E9EC80080A396D83813A57FE351B /* FSTapScrollView.m */; };
 		ADCAC31ADC2B835405FF045F158C68F1 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 916B7D07E6A7D3DA2227752084C46C3D /* MJRefreshFooter.m */; };
 		B0DCE1B4F8C2A5DF47DE9F2B4BA1FA8F /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B4356995A4E19B6DCA28B22C93EC26A0 /* MJRefreshAutoGifFooter.m */; };
 		B673D73523CBFF493039C86CD4588867 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C693C66D8210DCE8A60D9F61ACB32C33 /* UIScrollView+MJRefresh.m */; };
-		B68E7C9228422DB1B259C57B63ACA956 /* FSAutoLayoutButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B49F4142BDA5FBB37757193C28EACF39 /* FSAutoLayoutButtonsView.m */; };
-		BD51D7AFF689277A807BA2369918922F /* FSAutoLayoutButtonsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6317C5B06892BD28270F78596768CE3E /* FSAutoLayoutButtonsView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B68E7C9228422DB1B259C57B63ACA956 /* FSAutoLayoutButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3772F313CF2349D1346CA151FB1B4F86 /* FSAutoLayoutButtonsView.m */; };
+		B9BF6970CA5FDE17223AADF98F93AAB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */; };
+		BD51D7AFF689277A807BA2369918922F /* FSAutoLayoutButtonsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 906D9F9B0B63992C63AB0B314A4C7963 /* FSAutoLayoutButtonsView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BEE2711FFC74D96E212143D4D65171CE /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = AE61460FF170140D5507995E5430A53E /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BF0B737D28C4BED16BBF591EA289F8CB /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BFBCECE483DF970571AA1AE4075FB6 /* MJRefreshConst.m */; };
-		C15566A06392B45CF9A266E5279B073E /* FSViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3108AF73D57B0B84A8826D5D61483085 /* FSViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C559CF9F1A768D913F1E1947901603D8 /* FSUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C8271CD886D2F89DD036FE4EDA783790 /* FSUIKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C15566A06392B45CF9A266E5279B073E /* FSViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D50696D50704DA0CDBA730ABC0C3518 /* FSViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C559CF9F1A768D913F1E1947901603D8 /* FSUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C58B4C94A82CE2305CF1FBE3C29DA5 /* FSUIKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C61E2A95B7945840C1F6F10AA316F96D /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAC14D55EB947C64F1CED34D41A6788 /* MJRefreshComponent.m */; };
 		C6AF54895E357ECB8A1C90917B919377 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B5CD66A3B9558ADF622D2E9C6DCA36 /* MJRefreshBackNormalFooter.m */; };
-		C7370C99A27DB062AFCD322D7771C6A9 /* FSGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F3ED3C4768CBAB779AD6C1D0DE0753 /* FSGesture-dummy.m */; };
-		C7D5052151D31AED65622C30A169D148 /* UIView+ModalAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 338D25C1FC4C992DB5DEB5731BA369D8 /* UIView+ModalAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7D5052151D31AED65622C30A169D148 /* UIView+ModalAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4286C5631374993469FB895E3D821D /* UIView+ModalAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C850E16532F653E9F250C4DACA221BAE /* FSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E73906D59A43380C776A6D76FB6496 /* FSWindow.m */; };
-		C9E0910567B52646042E0CC141A90EFE /* FSTapLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 06255DD892C32F14A34526D34BF8F09A /* FSTapLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CA1EDF343B6F089E1CC3226B8E42918E /* FSReuseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5894D1F588041CA5FAE173965450DAFD /* FSReuseTableView.m */; };
+		C9E0910567B52646042E0CC141A90EFE /* FSTapLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCB4F328002C27ABC73873E94536A93 /* FSTapLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA1EDF343B6F089E1CC3226B8E42918E /* FSReuseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC9888B1AA0797E6EAB41697653E8F /* FSReuseTableView.m */; };
 		CC111BDB480371847D8CECE0091A0200 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 171879091879FB98B7358A2AD3999026 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CCBFB8BAA2D2E821C0F2D5FBDD27CDFB /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E152DA1484A09CBF5A9DA169ACEDFD /* MJRefreshBackStateFooter.m */; };
 		D195C28C761A7283F396E0A09DBF785D /* FSWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D09B10B4FEADB1BDEC75EB6147F6051 /* FSWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DC3074C6CF7B85537C59D3B32B897CB2 /* FSUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 703434F93B80DD84CEA7167A906512B3 /* FSUIKit-dummy.m */; };
-		DD22AE7BFD1861986E3F34B9B1D6288F /* FSTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A1D8EB17E2FEA2EFB372643EF15AFE /* FSTapLabel.m */; };
+		D2878A6EAE23A0190A672C9085A09514 /* FSGestureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBFBF56E697B042F8DAD7968C06A520 /* FSGestureView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2F59CF3F7AA1BBABD711A03B787AE25 /* FSUseGestureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B1D94B48542B44746B23D418E57B4E /* FSUseGestureView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC3074C6CF7B85537C59D3B32B897CB2 /* FSUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AB04CD95B13D7BD50F7435C2B580FD /* FSUIKit-dummy.m */; };
+		DD22AE7BFD1861986E3F34B9B1D6288F /* FSTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBD54438E3E269C850E4AC9BAE61EAC /* FSTapLabel.m */; };
 		E53345A53D97236A09D2030D2924CAA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */; };
 		E913686FFCC1233A3EF2C16A9927475E /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C532A0B9FCA0D6F4766E026B5DEEE486 /* NSBundle+MJRefresh.m */; };
-		EA587FB96AD4A2967F3FDF3B852EFDC9 /* FSCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F6D05387B642D6FE2877335984B4E6 /* FSCircleLayer.m */; };
-		EFC04E0590CFB6EF01ECF742DE9B52FF /* FSDBJeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E88421ED501222D283834E834D3F60 /* FSDBJeView.m */; };
-		F0C75180CE5DD9B090D0860388D8B737 /* FSShopClassView.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC5A83458B1F5505B17C96E83F2D3CC /* FSShopClassView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFC04E0590CFB6EF01ECF742DE9B52FF /* FSDBJeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC82A65C86DFC1AE9590D5B6CF53ED1 /* FSDBJeView.m */; };
+		EFC622B5587B776C19032DDBE17D89C7 /* FSGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CC253D617DEE2BDD4AD9AC333DBBE /* FSGestureView.m */; };
+		F0C75180CE5DD9B090D0860388D8B737 /* FSShopClassView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B34377D1A2C21EE7A9878051F71214F /* FSShopClassView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F21688DB3C968B04534A09661DFFF3AD /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = FA3E981E139601FF7CE022DFBAFED88B /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F2A767CFADF19610C3FF0CC8BAB2E248 /* FSTapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3504EE83F31D0781442E010184F688D3 /* FSTapCell.m */; };
-		F3E6A02E18EA731822DB0861DD3F100D /* FSLabelTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 535979D827358A3A8C7ECE7A7D932B14 /* FSLabelTextField.m */; };
-		F4E30EAF8FAC09CD7CD734B286B69F27 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = BF550A399A0C562B7C5E63FC0B84F75D /* UIViewExt.m */; };
-		F8EE0584971D2339F94D56A12D31F5A2 /* FSVanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19216F022F8DC0DC66884A4F2C44D74B /* FSVanView.m */; };
-		FBB05742E6A2DB2139C2814CC81E33D0 /* FSGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E9EE7F39D379043753F7C3C04FD9F5 /* FSGestureView.m */; };
+		F2A767CFADF19610C3FF0CC8BAB2E248 /* FSTapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CE66CE6F6040B57118247D7DC46943 /* FSTapCell.m */; };
+		F3E6A02E18EA731822DB0861DD3F100D /* FSLabelTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F05F18F3653FCE0ABD75AA91A86B245F /* FSLabelTextField.m */; };
+		F4E30EAF8FAC09CD7CD734B286B69F27 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF73FC2D7FFD7D97C29825E33150AFF /* UIViewExt.m */; };
+		F8EE0584971D2339F94D56A12D31F5A2 /* FSVanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1067DE392CE4D25316E759D34CACFA /* FSVanView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,7 +120,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5CDA6CA823E52A0687B414FCEC607AD0;
+			remoteGlobalIDString = E1EC8C45C7012031B8334C246C4C1D08;
 			remoteInfo = FSGesture;
 		};
 		11801CB61E67F194D0C009EF4679CB56 /* PBXContainerItemProxy */ = {
@@ -167,129 +169,131 @@
 
 /* Begin PBXFileReference section */
 		00266AC80B8971DAFBCE7915845304B9 /* libFSCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFSCalculator.a; path = libFSCalculator.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		008CEC62FD3A219A777BE4FF047F9A6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0124B26AA90551BC7F76302E95568511 /* Pods-FSGestureSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSGestureSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		027DBE398FA900F0FB1173A7256BBF01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0550F1C6DF160DDB4378938F14185E85 /* UIView+ModalAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ModalAnimation.m"; path = "FSUIKit/Classes/UIView+ModalAnimation.m"; sourceTree = "<group>"; };
+		05562CE2EAA579AD4195D3A92540649A /* FSUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSUIKit.xcconfig; sourceTree = "<group>"; };
 		05B5CD66A3B9558ADF622D2E9C6DCA36 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
-		06255DD892C32F14A34526D34BF8F09A /* FSTapLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSTapLabel.h; path = FSUIKit/Classes/FSTapLabel.h; sourceTree = "<group>"; };
-		07A769665BDC06BA9D59D2B6D1818037 /* FSGesture.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FSGesture.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		10D2425D9AE5373456F748B8197A8707 /* FSGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSGesture.xcconfig; sourceTree = "<group>"; };
-		13A1D8EB17E2FEA2EFB372643EF15AFE /* FSTapLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSTapLabel.m; path = FSUIKit/Classes/FSTapLabel.m; sourceTree = "<group>"; };
+		0C6CC253D617DEE2BDD4AD9AC333DBBE /* FSGestureView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSGestureView.m; path = Classes/FSGestureView.m; sourceTree = "<group>"; };
+		0D0DC4586E4884D924200B3D1B436ADD /* FSLabelTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSLabelTextField.h; path = FSUIKit/Classes/FSLabelTextField.h; sourceTree = "<group>"; };
+		0E1F45DB54C9E973C4E541B83F2A30DB /* FSDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSDatePickerView.m; path = FSUIKit/Classes/FSDatePickerView.m; sourceTree = "<group>"; };
+		12C58B4C94A82CE2305CF1FBE3C29DA5 /* FSUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSUIKit.h; path = FSUIKit/Classes/FSUIKit.h; sourceTree = "<group>"; };
+		15B1D94B48542B44746B23D418E57B4E /* FSUseGestureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSUseGestureView.h; path = Classes/FSUseGestureView.h; sourceTree = "<group>"; };
 		165E83E814973FBA7E284AA35A2A42F8 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
 		171879091879FB98B7358A2AD3999026 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
-		19216F022F8DC0DC66884A4F2C44D74B /* FSVanView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSVanView.m; path = FSUIKit/Classes/FSVanView.m; sourceTree = "<group>"; };
-		1DBC49B0775D96DED1BC44F283914A01 /* FSUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSUIKit.xcconfig; sourceTree = "<group>"; };
+		1A1067DE392CE4D25316E759D34CACFA /* FSVanView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSVanView.m; path = FSUIKit/Classes/FSVanView.m; sourceTree = "<group>"; };
+		1ABE81460082CAEE6A995997F482C43D /* FSDBJeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSDBJeView.h; path = FSUIKit/Classes/FSDBJeView.h; sourceTree = "<group>"; };
+		1AF73FC2D7FFD7D97C29825E33150AFF /* UIViewExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIViewExt.m; path = FSUIKit/Classes/UIViewExt.m; sourceTree = "<group>"; };
+		204A34C8CEA588CCBE746916CD9533F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		20C5E5CD61BFF3FBABD4117FA488FD84 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		223F70C073B33433AD2D77213C1008B2 /* FSLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSLabel.m; path = FSUIKit/Classes/FSLabel.m; sourceTree = "<group>"; };
 		23B2D8CDD76210D8182CE0936D560C4D /* FSCalculator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalculator.xcconfig; sourceTree = "<group>"; };
 		23BA764EA0BA13214E8B7FB6467F8C9E /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
-		24BCB90D4EA7A5FBA499BDBFF87E2073 /* UIViewExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIViewExt.h; path = FSUIKit/Classes/UIViewExt.h; sourceTree = "<group>"; };
 		2592D78A0F9D3B51137C77A0A896E5EB /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
-		28E26019D5369CDC18FDDFF4C830A47E /* FSLabelTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSLabelTextField.h; path = FSUIKit/Classes/FSLabelTextField.h; sourceTree = "<group>"; };
-		2C4DA2613C975DA8D210D0CECEA1700B /* FSCircleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCircleLayer.h; path = Classes/FSCircleLayer.h; sourceTree = "<group>"; };
-		2C5CFE76779BA17BF04D524C2B43C0DB /* FSViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSViewManager.m; path = FSUIKit/Classes/FSViewManager.m; sourceTree = "<group>"; };
+		2752B3D8FB5781C34AA721501CD0A2D7 /* FSViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSViewManager.m; path = FSUIKit/Classes/FSViewManager.m; sourceTree = "<group>"; };
+		27F61EC4316D2681490F0524C0D577E1 /* FSLeftItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSLeftItem.m; path = FSUIKit/Classes/FSLeftItem.m; sourceTree = "<group>"; };
+		2A68E9EC80080A396D83813A57FE351B /* FSTapScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSTapScrollView.m; path = FSUIKit/Classes/FSTapScrollView.m; sourceTree = "<group>"; };
+		2AEC9888B1AA0797E6EAB41697653E8F /* FSReuseTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSReuseTableView.m; path = FSUIKit/Classes/FSReuseTableView.m; sourceTree = "<group>"; };
 		2C6F89E8231245AF972EF893B948051C /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		2D07718FE19CC8A8E1875D8A61933558 /* FSShopClassView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSShopClassView.m; path = FSUIKit/Classes/FSShopClassView.m; sourceTree = "<group>"; };
 		2D09B10B4FEADB1BDEC75EB6147F6051 /* FSWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSWindow.h; path = FSWindow/Classes/FSWindow.h; sourceTree = "<group>"; };
 		309B5D43F1C343AA54A3C24B835BF434 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
-		30BD3235B3A1B02F4A76FF9005FBF5B4 /* FSDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSDatePickerView.m; path = FSUIKit/Classes/FSDatePickerView.m; sourceTree = "<group>"; };
-		3108AF73D57B0B84A8826D5D61483085 /* FSViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSViewManager.h; path = FSUIKit/Classes/FSViewManager.h; sourceTree = "<group>"; };
-		338D25C1FC4C992DB5DEB5731BA369D8 /* UIView+ModalAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ModalAnimation.h"; path = "FSUIKit/Classes/UIView+ModalAnimation.h"; sourceTree = "<group>"; };
-		3504EE83F31D0781442E010184F688D3 /* FSTapCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSTapCell.m; path = FSUIKit/Classes/FSTapCell.m; sourceTree = "<group>"; };
+		31CC897185831A4EE0B0A2C73AAEB336 /* FSImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSImage.h; path = FSUIKit/Classes/FSImage.h; sourceTree = "<group>"; };
+		339AA88C65F3E82AFCB0D71866A9E96E /* PHTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PHTextView.m; path = FSUIKit/Classes/PHTextView.m; sourceTree = "<group>"; };
+		3772F313CF2349D1346CA151FB1B4F86 /* FSAutoLayoutButtonsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSAutoLayoutButtonsView.m; path = FSUIKit/Classes/FSAutoLayoutButtonsView.m; sourceTree = "<group>"; };
 		39D6FD716761A30241E3F9114D1EB259 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		3BBD54438E3E269C850E4AC9BAE61EAC /* FSTapLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSTapLabel.m; path = FSUIKit/Classes/FSTapLabel.m; sourceTree = "<group>"; };
 		3C971EDB47BA0CBC6A64C43012F3AF68 /* libFSWindow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFSWindow.a; path = libFSWindow.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CCA52D9F60E0AB33EACB27E14F58290 /* FSUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSUIKit-prefix.pch"; sourceTree = "<group>"; };
+		3D50696D50704DA0CDBA730ABC0C3518 /* FSViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSViewManager.h; path = FSUIKit/Classes/FSViewManager.h; sourceTree = "<group>"; };
 		3D9D5A6785D1D38EBAB8BEB1A0E10CED /* Pods-FSGestureSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSGestureSample-acknowledgements.plist"; sourceTree = "<group>"; };
-		430135A7CB0A8196E6CC97AF4C0F1BAF /* FSTitleContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSTitleContentView.m; path = FSUIKit/Classes/FSTitleContentView.m; sourceTree = "<group>"; };
 		4793C1AFAABE8A73CDA5A0B3234387A1 /* FSWindow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSWindow-prefix.pch"; sourceTree = "<group>"; };
-		47F6915B4F78E15BCD0544EE53FC37F0 /* FSReuseTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSReuseTableView.h; path = FSUIKit/Classes/FSReuseTableView.h; sourceTree = "<group>"; };
-		48821C159B3973C6A5D7AEF409B75815 /* FSLeftItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSLeftItem.m; path = FSUIKit/Classes/FSLeftItem.m; sourceTree = "<group>"; };
-		48FA05C4456D09503883914C223B59C0 /* PHTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PHTextView.h; path = FSUIKit/Classes/PHTextView.h; sourceTree = "<group>"; };
-		4DC8738D22B98205EEA0A679D1AE94C5 /* FSVanView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSVanView.h; path = FSUIKit/Classes/FSVanView.h; sourceTree = "<group>"; };
+		4D96576E02D91791E6B4A6F6D922F4DC /* FSGesture.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FSGesture.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4F2DD44A53654787EFA9B4728AA024B0 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
 		5306CD0FB82F6BA9C5BFF07202A08794 /* FSCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalculator.h; path = FSCalculator/Classes/FSCalculator.h; sourceTree = "<group>"; };
-		5330A7CD3F9EB103D814553760AEA32E /* UIView+ModalAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ModalAnimation.m"; path = "FSUIKit/Classes/UIView+ModalAnimation.m"; sourceTree = "<group>"; };
-		535979D827358A3A8C7ECE7A7D932B14 /* FSLabelTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSLabelTextField.m; path = FSUIKit/Classes/FSLabelTextField.m; sourceTree = "<group>"; };
-		55E88421ED501222D283834E834D3F60 /* FSDBJeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSDBJeView.m; path = FSUIKit/Classes/FSDBJeView.m; sourceTree = "<group>"; };
-		5894D1F588041CA5FAE173965450DAFD /* FSReuseTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSReuseTableView.m; path = FSUIKit/Classes/FSReuseTableView.m; sourceTree = "<group>"; };
+		55AB04CD95B13D7BD50F7435C2B580FD /* FSUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSUIKit-dummy.m"; sourceTree = "<group>"; };
 		59714CD600C1561FBDA93935FA80E867 /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
+		5A7DD4D8051568C592EC549C788332BB /* FSImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSImage.m; path = FSUIKit/Classes/FSImage.m; sourceTree = "<group>"; };
+		5C2BEA6DFB2E78F0B896A2CA89CA9804 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5CDAC72A4517C192F905B67EC07C990C /* libFSUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFSUIKit.a; path = libFSUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D09389999F1431E2CAFC8DB2935CBAD /* FSLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSLabel.h; path = FSUIKit/Classes/FSLabel.h; sourceTree = "<group>"; };
+		5D3CB88AC555115B62685485C20D31BB /* FSUseGestureView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSUseGestureView.m; path = Classes/FSUseGestureView.m; sourceTree = "<group>"; };
+		5F4286C5631374993469FB895E3D821D /* UIView+ModalAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ModalAnimation.h"; path = "FSUIKit/Classes/UIView+ModalAnimation.h"; sourceTree = "<group>"; };
+		5F8E2674693FE7198284500E342A413C /* FSLeftItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSLeftItem.h; path = FSUIKit/Classes/FSLeftItem.h; sourceTree = "<group>"; };
 		602A0B65220D7061197FDDA02DE6DC87 /* Pods-FSGestureSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSGestureSample.release.xcconfig"; sourceTree = "<group>"; };
-		61D71E5F94CBBDCBFF4C1DFF9E8BCFFC /* FSShopClassView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSShopClassView.m; path = FSUIKit/Classes/FSShopClassView.m; sourceTree = "<group>"; };
-		6317C5B06892BD28270F78596768CE3E /* FSAutoLayoutButtonsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSAutoLayoutButtonsView.h; path = FSUIKit/Classes/FSAutoLayoutButtonsView.h; sourceTree = "<group>"; };
-		6576039B2044694BA4371319AAC54FA4 /* FSTitleContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSTitleContentView.h; path = FSUIKit/Classes/FSTitleContentView.h; sourceTree = "<group>"; };
+		6334EC62BEC399D77806FD1DBFBA8102 /* FSTapCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSTapCell.h; path = FSUIKit/Classes/FSTapCell.h; sourceTree = "<group>"; };
 		69ACA7F0CE7B1E8651E543AEB545E7E9 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
-		69E9EE7F39D379043753F7C3C04FD9F5 /* FSGestureView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSGestureView.m; path = Classes/FSGestureView.m; sourceTree = "<group>"; };
+		6A6D9C00E6E9C024AB04DDEDA6DC6947 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6CCB4F328002C27ABC73873E94536A93 /* FSTapLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSTapLabel.h; path = FSUIKit/Classes/FSTapLabel.h; sourceTree = "<group>"; };
 		6EAC14D55EB947C64F1CED34D41A6788 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
-		703434F93B80DD84CEA7167A906512B3 /* FSUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSUIKit-dummy.m"; sourceTree = "<group>"; };
 		72D1E2D1865EE5DE4BD05A86B9203BFB /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
 		72DB4214210084F93923383CC89C99F7 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
 		73CC5AA7B0AB990C770EC9EA0CD12E96 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		75E152DA1484A09CBF5A9DA169ACEDFD /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
 		76311C90F57CD19D4CC6D4EAAE4CFEDD /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		781559B5454BDC9FA17419A4D108FE92 /* FSUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FSUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7820CE171C6DB1BA45CCBA455AA2B284 /* FSUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSUIKit.m; path = FSUIKit/Classes/FSUIKit.m; sourceTree = "<group>"; };
+		78324C2E3684ED5EF8033C85E4E7C3DC /* FSHalfView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSHalfView.h; path = FSUIKit/Classes/FSHalfView.h; sourceTree = "<group>"; };
+		789EC2DC1C8FB424C5003C271445A917 /* FSGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSGesture-dummy.m"; sourceTree = "<group>"; };
 		7A4AE4DBFC0E117212C9027DCA70F319 /* Pods-FSGestureSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSGestureSample-frameworks.sh"; sourceTree = "<group>"; };
+		7CBFBF56E697B042F8DAD7968C06A520 /* FSGestureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSGestureView.h; path = Classes/FSGestureView.h; sourceTree = "<group>"; };
 		7CE95141F077116A598B8D3159B66180 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		7F5C77D7EA5A4B1EC4CFF8225A15EAD7 /* FSGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSGesture.xcconfig; sourceTree = "<group>"; };
 		7F8DFBDB1A8FD07E3D169A7572A6F2EF /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
-		7FFF95ABA1C4CCF9B11C6D113C3E0909 /* FSTapCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSTapCell.h; path = FSUIKit/Classes/FSTapCell.h; sourceTree = "<group>"; };
+		8264A03CC7510CB00530BEB8E18FE427 /* FSDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSDatePickerView.h; path = FSUIKit/Classes/FSDatePickerView.h; sourceTree = "<group>"; };
 		85DBF1100EA5E584DFBB1A0EF2EBCFB0 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
 		873FB73D815536DE1196C7BB0B81ED80 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		88735BAD356DB62FDA38BA1D0C5D2BF6 /* FSTitleContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSTitleContentView.h; path = FSUIKit/Classes/FSTitleContentView.h; sourceTree = "<group>"; };
 		888184E9FB38C2ABD8908446DC2D36FE /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		8B34377D1A2C21EE7A9878051F71214F /* FSShopClassView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSShopClassView.h; path = FSUIKit/Classes/FSShopClassView.h; sourceTree = "<group>"; };
 		8B46A532FB4B34EC844FC886CF0B0E15 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
-		8B8363D4BC6BC8BC1F8E0DDBBE7AD79B /* FSHalfView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSHalfView.h; path = FSUIKit/Classes/FSHalfView.h; sourceTree = "<group>"; };
 		8C91678F6419A5F91BCABBCF7A5A0C23 /* libPods-FSGestureSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FSGestureSample.a"; path = "libPods-FSGestureSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D00C31698905CE996CC686BE49857B7 /* FSGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSGesture-prefix.pch"; sourceTree = "<group>"; };
 		8E505D8E99AADB6CF3CD267765E1FC88 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
-		8FD8D45110F2D0D2D43F8099B8A65CBB /* FSHalfView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSHalfView.m; path = FSUIKit/Classes/FSHalfView.m; sourceTree = "<group>"; };
+		906D9F9B0B63992C63AB0B314A4C7963 /* FSAutoLayoutButtonsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSAutoLayoutButtonsView.h; path = FSUIKit/Classes/FSAutoLayoutButtonsView.h; sourceTree = "<group>"; };
 		916B7D07E6A7D3DA2227752084C46C3D /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
 		92EBF21B676375F1CB50AA5D534D6433 /* Pods-FSGestureSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSGestureSample-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96EA005C3C7B368464640A105F6206C1 /* Pods-FSGestureSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSGestureSample.debug.xcconfig"; sourceTree = "<group>"; };
-		9BCDE8D3383563C62EE63329E58D71B9 /* FSDBJeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSDBJeView.h; path = FSUIKit/Classes/FSDBJeView.h; sourceTree = "<group>"; };
-		A034086798C7A2FD7094DA8E253E71A1 /* FSLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSLabel.h; path = FSUIKit/Classes/FSLabel.h; sourceTree = "<group>"; };
+		98CE66CE6F6040B57118247D7DC46943 /* FSTapCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSTapCell.m; path = FSUIKit/Classes/FSTapCell.m; sourceTree = "<group>"; };
+		A01FC4BEF3128715F53402A4A7458D8F /* FSGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSGesture-prefix.pch"; sourceTree = "<group>"; };
+		A10F7FEFD185F68422CCF8A8CFAC76C1 /* UIViewExt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIViewExt.h; path = FSUIKit/Classes/UIViewExt.h; sourceTree = "<group>"; };
 		A126230AF50AB6452C188E7A1FDC0410 /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
-		A1374EF500CB5609112E4EDAD248580A /* FSTapScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSTapScrollView.h; path = FSUIKit/Classes/FSTapScrollView.h; sourceTree = "<group>"; };
 		A2520A3D2B73B5599633062EC720B41F /* FSCalculator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalculator-prefix.pch"; sourceTree = "<group>"; };
-		A3F6D05387B642D6FE2877335984B4E6 /* FSCircleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCircleLayer.m; path = Classes/FSCircleLayer.m; sourceTree = "<group>"; };
-		AAED0D4585B347D6DEE701D2EFD061D9 /* PHTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PHTextView.m; path = FSUIKit/Classes/PHTextView.m; sourceTree = "<group>"; };
+		A57EF40FCAB7B7B8FE81B452643BA3ED /* FSTapScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSTapScrollView.h; path = FSUIKit/Classes/FSTapScrollView.h; sourceTree = "<group>"; };
+		A5BF66F3D390DCDB3F74A7D8787C10D5 /* FSCircleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCircleLayer.h; path = Classes/FSCircleLayer.h; sourceTree = "<group>"; };
 		AC748FE423A1896829EF96B97AE25908 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
 		AC796DBF4E802C17571172827E73C571 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
-		ADAFD23A8BCF526FE95FFA065DCE7DD3 /* FSUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FSUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ADC5A83458B1F5505B17C96E83F2D3CC /* FSShopClassView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSShopClassView.h; path = FSUIKit/Classes/FSShopClassView.h; sourceTree = "<group>"; };
-		ADEC54C30F3A4E7C960BB18CC7F733DF /* FSLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSLabel.m; path = FSUIKit/Classes/FSLabel.m; sourceTree = "<group>"; };
 		AE61460FF170140D5507995E5430A53E /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		AF653A2F107A26A632EC69F5CFABACCA /* PHTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PHTextView.h; path = FSUIKit/Classes/PHTextView.h; sourceTree = "<group>"; };
+		B0C4756BA01B19AF9BE7723C56EF90EC /* FSUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSUIKit-prefix.pch"; sourceTree = "<group>"; };
 		B4356995A4E19B6DCA28B22C93EC26A0 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
-		B49F4142BDA5FBB37757193C28EACF39 /* FSAutoLayoutButtonsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSAutoLayoutButtonsView.m; path = FSUIKit/Classes/FSAutoLayoutButtonsView.m; sourceTree = "<group>"; };
-		BF4483A8E575D119E909624611F469F8 /* FSLeftItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSLeftItem.h; path = FSUIKit/Classes/FSLeftItem.h; sourceTree = "<group>"; };
-		BF550A399A0C562B7C5E63FC0B84F75D /* UIViewExt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIViewExt.m; path = FSUIKit/Classes/UIViewExt.m; sourceTree = "<group>"; };
+		BB75DBD5B932E0F2C6E7C5F6C3650372 /* FSVanView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSVanView.h; path = FSUIKit/Classes/FSVanView.h; sourceTree = "<group>"; };
 		C3003A91FBA9C5022150B12957D21049 /* FSWindow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSWindow-dummy.m"; sourceTree = "<group>"; };
 		C4BFBCECE483DF970571AA1AE4075FB6 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
 		C532A0B9FCA0D6F4766E026B5DEEE486 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
 		C5FDCFB0913153989B454C2D1F662022 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
 		C693C66D8210DCE8A60D9F61ACB32C33 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		C6E73906D59A43380C776A6D76FB6496 /* FSWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSWindow.m; path = FSWindow/Classes/FSWindow.m; sourceTree = "<group>"; };
-		C8271CD886D2F89DD036FE4EDA783790 /* FSUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSUIKit.h; path = FSUIKit/Classes/FSUIKit.h; sourceTree = "<group>"; };
-		C855497CDA0AB856491B08EBE02E455C /* FSDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSDatePickerView.h; path = FSUIKit/Classes/FSDatePickerView.h; sourceTree = "<group>"; };
-		CA57F0B20CCF83313F9EE3A33A2B06FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CB643D98D9BC3183DA345E748FE801D1 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
 		CDF05C36D126C73292C3B4E3734BC7F9 /* FSCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalculator-dummy.m"; sourceTree = "<group>"; };
 		D9D015258FAE761A1E497A65BEFE398B /* Pods-FSGestureSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSGestureSample-resources.sh"; sourceTree = "<group>"; };
-		DCF55C7F6D276F7FA7BA3EFEA143B6CB /* FSGestureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSGestureView.h; path = Classes/FSGestureView.h; sourceTree = "<group>"; };
 		DD2D195201664BF7D41A672D17F00AC0 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
 		E01A82E76DE734D443AD520C012E7E2F /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
 		E09F5B7E5662B7C8F22EEDD9C24B01A6 /* FSCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalculator.m; path = FSCalculator/Classes/FSCalculator.m; sourceTree = "<group>"; };
 		E23F49ECA6FF1152D3DAF3CF72F2F008 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJRefresh.a; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E26951A38E8ADC3EFF6C23D7A6EDAC60 /* FSUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSUIKit.m; path = FSUIKit/Classes/FSUIKit.m; sourceTree = "<group>"; };
+		E4BA6584175DF685EC088818E22D54CA /* FSHalfView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSHalfView.m; path = FSUIKit/Classes/FSHalfView.m; sourceTree = "<group>"; };
 		E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E764542DDFB230A6023AFB560ED2A754 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E69183BE051F92ACB34698DABCC6CD4C /* FSCircleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCircleLayer.m; path = Classes/FSCircleLayer.m; sourceTree = "<group>"; };
 		EA2698E4B6D60A76013F7E4FC7D0285E /* libFSGesture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFSGesture.a; path = libFSGesture.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB93F7F6C6FF2B926B9DE2383A028418 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
 		ECB9555705E4F89056D67A911BD6E048 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
 		EF8E15FF885D06B9512A18A008ECB0DE /* FSWindow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSWindow.xcconfig; sourceTree = "<group>"; };
+		EF97D305AF1F75CB34605C2A047EE99C /* FSTitleContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSTitleContentView.m; path = FSUIKit/Classes/FSTitleContentView.m; sourceTree = "<group>"; };
 		EFA34F39C12BAD758DF5FA9A958B925B /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
-		EFE1B3D68B376D459FC241500A6817EF /* FSImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSImage.m; path = FSUIKit/Classes/FSImage.m; sourceTree = "<group>"; };
-		F6F3ED3C4768CBAB779AD6C1D0DE0753 /* FSGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSGesture-dummy.m"; sourceTree = "<group>"; };
+		F04E2A10D097119A35D65EAA80797578 /* FSReuseTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSReuseTableView.h; path = FSUIKit/Classes/FSReuseTableView.h; sourceTree = "<group>"; };
+		F05F18F3653FCE0ABD75AA91A86B245F /* FSLabelTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSLabelTextField.m; path = FSUIKit/Classes/FSLabelTextField.m; sourceTree = "<group>"; };
 		F6FB50CEF41FA755DFFFB7601540BF0E /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
-		F9509731804683CC757C4A0F6DCD2D4E /* FSTapScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSTapScrollView.m; path = FSUIKit/Classes/FSTapScrollView.m; sourceTree = "<group>"; };
 		FA3E981E139601FF7CE022DFBAFED88B /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
-		FBF859E7A705E900485D266B461EA970 /* FSImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSImage.h; path = FSUIKit/Classes/FSImage.h; sourceTree = "<group>"; };
-		FEF27FCEC6A9F13067DCE2C1FD853B93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FBC82A65C86DFC1AE9590D5B6CF53ED1 /* FSDBJeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSDBJeView.m; path = FSUIKit/Classes/FSDBJeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,14 +302,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E27FD34615CEDD2B80FA1A55BDAF116 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4533EEF10CF64C7302E6750FF4695651 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AAF7993E244E837932195E0F2A0EE65E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,14 +335,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E5925438825314F4D50B41F72D75150D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BF6970CA5FDE17223AADF98F93AAB7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		145E8379F82555FF3999AFE9F95C7EA1 /* Development Pods */ = {
+		15DBFC9B4153C8FE9E82D02AD1715655 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D93FB5955AAF6AD5CBAEB58E8FBFD870 /* FSGesture */,
-				CB2A7209BE7131A485710497271CBF08 /* FSUIKit */,
+				2D3305A7AB2CC1AFF3F85BBCF8244F61 /* FSGesture */,
+				E92CFD7BAF346260AE768F0B25634FA6 /* FSUIKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -364,15 +368,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28540D1DB86C4C068B2C8823F87D235C /* Support Files */ = {
+		2D3305A7AB2CC1AFF3F85BBCF8244F61 /* FSGesture */ = {
 			isa = PBXGroup;
 			children = (
-				1DBC49B0775D96DED1BC44F283914A01 /* FSUIKit.xcconfig */,
-				703434F93B80DD84CEA7167A906512B3 /* FSUIKit-dummy.m */,
-				3CCA52D9F60E0AB33EACB27E14F58290 /* FSUIKit-prefix.pch */,
+				A5BF66F3D390DCDB3F74A7D8787C10D5 /* FSCircleLayer.h */,
+				E69183BE051F92ACB34698DABCC6CD4C /* FSCircleLayer.m */,
+				7CBFBF56E697B042F8DAD7968C06A520 /* FSGestureView.h */,
+				0C6CC253D617DEE2BDD4AD9AC333DBBE /* FSGestureView.m */,
+				15B1D94B48542B44746B23D418E57B4E /* FSUseGestureView.h */,
+				5D3CB88AC555115B62685485C20D31BB /* FSUseGestureView.m */,
+				DB2130ED4C7E981C4CE29054C86B0497 /* Pod */,
+				CBC6D24EEB1DB90393F8E11154EE023B /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../FSGesture/FSGestureSample/Pods/Target Support Files/FSUIKit";
+			name = FSGesture;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		38BABC43C64429AA37205FF56B59E4BC /* Targets Support Files */ = {
@@ -383,22 +392,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		41023E8A1F16D3F593D888C161A23856 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				07A769665BDC06BA9D59D2B6D1818037 /* FSGesture.podspec */,
-				FEF27FCEC6A9F13067DCE2C1FD853B93 /* LICENSE */,
-				E764542DDFB230A6023AFB560ED2A754 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		439617EAFCB50E7C1F770414D2834329 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				E538F0B835A53761AF5FF2D2D75573E8 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A40547190B7A4A6362A5E2904D51104 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				781559B5454BDC9FA17419A4D108FE92 /* FSUIKit.podspec */,
+				5C2BEA6DFB2E78F0B896A2CA89CA9804 /* LICENSE */,
+				027DBE398FA900F0FB1173A7256BBF01 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6B202C8EAB0BA31214FBB3A5155138F9 /* Support Files */ = {
@@ -431,11 +440,22 @@
 			path = "../Target Support Files/MJRefresh";
 			sourceTree = "<group>";
 		};
+		7CECDC647070C8CBC166FEF698322B59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05562CE2EAA579AD4195D3A92540649A /* FSUIKit.xcconfig */,
+				55AB04CD95B13D7BD50F7435C2B580FD /* FSUIKit-dummy.m */,
+				B0C4756BA01B19AF9BE7723C56EF90EC /* FSUIKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../FSGesture/FSGestureSample/Pods/Target Support Files/FSUIKit";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				145E8379F82555FF3999AFE9F95C7EA1 /* Development Pods */,
+				15DBFC9B4153C8FE9E82D02AD1715655 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E8AEA2DE1E9BF11A32FE9A614628A07E /* Pods */,
 				22B462886453A8D8D463A709EBF7A0C0 /* Products */,
@@ -492,17 +512,6 @@
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
-		9288968FEF665C331BD36B500D67A401 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				10D2425D9AE5373456F748B8197A8707 /* FSGesture.xcconfig */,
-				F6F3ED3C4768CBAB779AD6C1D0DE0753 /* FSGesture-dummy.m */,
-				8D00C31698905CE996CC686BE49857B7 /* FSGesture-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "FSGestureSample/Pods/Target Support Files/FSGesture";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -522,78 +531,25 @@
 			path = FSWindow;
 			sourceTree = "<group>";
 		};
-		CB2A7209BE7131A485710497271CBF08 /* FSUIKit */ = {
+		CBC6D24EEB1DB90393F8E11154EE023B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6317C5B06892BD28270F78596768CE3E /* FSAutoLayoutButtonsView.h */,
-				B49F4142BDA5FBB37757193C28EACF39 /* FSAutoLayoutButtonsView.m */,
-				C855497CDA0AB856491B08EBE02E455C /* FSDatePickerView.h */,
-				30BD3235B3A1B02F4A76FF9005FBF5B4 /* FSDatePickerView.m */,
-				9BCDE8D3383563C62EE63329E58D71B9 /* FSDBJeView.h */,
-				55E88421ED501222D283834E834D3F60 /* FSDBJeView.m */,
-				8B8363D4BC6BC8BC1F8E0DDBBE7AD79B /* FSHalfView.h */,
-				8FD8D45110F2D0D2D43F8099B8A65CBB /* FSHalfView.m */,
-				FBF859E7A705E900485D266B461EA970 /* FSImage.h */,
-				EFE1B3D68B376D459FC241500A6817EF /* FSImage.m */,
-				A034086798C7A2FD7094DA8E253E71A1 /* FSLabel.h */,
-				ADEC54C30F3A4E7C960BB18CC7F733DF /* FSLabel.m */,
-				28E26019D5369CDC18FDDFF4C830A47E /* FSLabelTextField.h */,
-				535979D827358A3A8C7ECE7A7D932B14 /* FSLabelTextField.m */,
-				BF4483A8E575D119E909624611F469F8 /* FSLeftItem.h */,
-				48821C159B3973C6A5D7AEF409B75815 /* FSLeftItem.m */,
-				47F6915B4F78E15BCD0544EE53FC37F0 /* FSReuseTableView.h */,
-				5894D1F588041CA5FAE173965450DAFD /* FSReuseTableView.m */,
-				ADC5A83458B1F5505B17C96E83F2D3CC /* FSShopClassView.h */,
-				61D71E5F94CBBDCBFF4C1DFF9E8BCFFC /* FSShopClassView.m */,
-				7FFF95ABA1C4CCF9B11C6D113C3E0909 /* FSTapCell.h */,
-				3504EE83F31D0781442E010184F688D3 /* FSTapCell.m */,
-				06255DD892C32F14A34526D34BF8F09A /* FSTapLabel.h */,
-				13A1D8EB17E2FEA2EFB372643EF15AFE /* FSTapLabel.m */,
-				A1374EF500CB5609112E4EDAD248580A /* FSTapScrollView.h */,
-				F9509731804683CC757C4A0F6DCD2D4E /* FSTapScrollView.m */,
-				6576039B2044694BA4371319AAC54FA4 /* FSTitleContentView.h */,
-				430135A7CB0A8196E6CC97AF4C0F1BAF /* FSTitleContentView.m */,
-				C8271CD886D2F89DD036FE4EDA783790 /* FSUIKit.h */,
-				E26951A38E8ADC3EFF6C23D7A6EDAC60 /* FSUIKit.m */,
-				4DC8738D22B98205EEA0A679D1AE94C5 /* FSVanView.h */,
-				19216F022F8DC0DC66884A4F2C44D74B /* FSVanView.m */,
-				3108AF73D57B0B84A8826D5D61483085 /* FSViewManager.h */,
-				2C5CFE76779BA17BF04D524C2B43C0DB /* FSViewManager.m */,
-				48FA05C4456D09503883914C223B59C0 /* PHTextView.h */,
-				AAED0D4585B347D6DEE701D2EFD061D9 /* PHTextView.m */,
-				338D25C1FC4C992DB5DEB5731BA369D8 /* UIView+ModalAnimation.h */,
-				5330A7CD3F9EB103D814553760AEA32E /* UIView+ModalAnimation.m */,
-				24BCB90D4EA7A5FBA499BDBFF87E2073 /* UIViewExt.h */,
-				BF550A399A0C562B7C5E63FC0B84F75D /* UIViewExt.m */,
-				D4B70EA3C6A399E93D30C00E2092F4B6 /* Pod */,
-				28540D1DB86C4C068B2C8823F87D235C /* Support Files */,
+				7F5C77D7EA5A4B1EC4CFF8225A15EAD7 /* FSGesture.xcconfig */,
+				789EC2DC1C8FB424C5003C271445A917 /* FSGesture-dummy.m */,
+				A01FC4BEF3128715F53402A4A7458D8F /* FSGesture-prefix.pch */,
 			);
-			name = FSUIKit;
-			path = ../../../FSUIKit;
+			name = "Support Files";
+			path = "FSGestureSample/Pods/Target Support Files/FSGesture";
 			sourceTree = "<group>";
 		};
-		D4B70EA3C6A399E93D30C00E2092F4B6 /* Pod */ = {
+		DB2130ED4C7E981C4CE29054C86B0497 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				ADAFD23A8BCF526FE95FFA065DCE7DD3 /* FSUIKit.podspec */,
-				008CEC62FD3A219A777BE4FF047F9A6E /* LICENSE */,
-				CA57F0B20CCF83313F9EE3A33A2B06FC /* README.md */,
+				4D96576E02D91791E6B4A6F6D922F4DC /* FSGesture.podspec */,
+				6A6D9C00E6E9C024AB04DDEDA6DC6947 /* LICENSE */,
+				204A34C8CEA588CCBE746916CD9533F6 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		D93FB5955AAF6AD5CBAEB58E8FBFD870 /* FSGesture */ = {
-			isa = PBXGroup;
-			children = (
-				2C4DA2613C975DA8D210D0CECEA1700B /* FSCircleLayer.h */,
-				A3F6D05387B642D6FE2877335984B4E6 /* FSCircleLayer.m */,
-				DCF55C7F6D276F7FA7BA3EFEA143B6CB /* FSGestureView.h */,
-				69E9EE7F39D379043753F7C3C04FD9F5 /* FSGestureView.m */,
-				41023E8A1F16D3F593D888C161A23856 /* Pod */,
-				9288968FEF665C331BD36B500D67A401 /* Support Files */,
-			);
-			name = FSGesture;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		E0B366300B134B4FA502571E87F60D62 /* Pods-FSGestureSample */ = {
@@ -632,6 +588,56 @@
 			path = "../Target Support Files/FSCalculator";
 			sourceTree = "<group>";
 		};
+		E92CFD7BAF346260AE768F0B25634FA6 /* FSUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				906D9F9B0B63992C63AB0B314A4C7963 /* FSAutoLayoutButtonsView.h */,
+				3772F313CF2349D1346CA151FB1B4F86 /* FSAutoLayoutButtonsView.m */,
+				8264A03CC7510CB00530BEB8E18FE427 /* FSDatePickerView.h */,
+				0E1F45DB54C9E973C4E541B83F2A30DB /* FSDatePickerView.m */,
+				1ABE81460082CAEE6A995997F482C43D /* FSDBJeView.h */,
+				FBC82A65C86DFC1AE9590D5B6CF53ED1 /* FSDBJeView.m */,
+				78324C2E3684ED5EF8033C85E4E7C3DC /* FSHalfView.h */,
+				E4BA6584175DF685EC088818E22D54CA /* FSHalfView.m */,
+				31CC897185831A4EE0B0A2C73AAEB336 /* FSImage.h */,
+				5A7DD4D8051568C592EC549C788332BB /* FSImage.m */,
+				5D09389999F1431E2CAFC8DB2935CBAD /* FSLabel.h */,
+				223F70C073B33433AD2D77213C1008B2 /* FSLabel.m */,
+				0D0DC4586E4884D924200B3D1B436ADD /* FSLabelTextField.h */,
+				F05F18F3653FCE0ABD75AA91A86B245F /* FSLabelTextField.m */,
+				5F8E2674693FE7198284500E342A413C /* FSLeftItem.h */,
+				27F61EC4316D2681490F0524C0D577E1 /* FSLeftItem.m */,
+				F04E2A10D097119A35D65EAA80797578 /* FSReuseTableView.h */,
+				2AEC9888B1AA0797E6EAB41697653E8F /* FSReuseTableView.m */,
+				8B34377D1A2C21EE7A9878051F71214F /* FSShopClassView.h */,
+				2D07718FE19CC8A8E1875D8A61933558 /* FSShopClassView.m */,
+				6334EC62BEC399D77806FD1DBFBA8102 /* FSTapCell.h */,
+				98CE66CE6F6040B57118247D7DC46943 /* FSTapCell.m */,
+				6CCB4F328002C27ABC73873E94536A93 /* FSTapLabel.h */,
+				3BBD54438E3E269C850E4AC9BAE61EAC /* FSTapLabel.m */,
+				A57EF40FCAB7B7B8FE81B452643BA3ED /* FSTapScrollView.h */,
+				2A68E9EC80080A396D83813A57FE351B /* FSTapScrollView.m */,
+				88735BAD356DB62FDA38BA1D0C5D2BF6 /* FSTitleContentView.h */,
+				EF97D305AF1F75CB34605C2A047EE99C /* FSTitleContentView.m */,
+				12C58B4C94A82CE2305CF1FBE3C29DA5 /* FSUIKit.h */,
+				7820CE171C6DB1BA45CCBA455AA2B284 /* FSUIKit.m */,
+				BB75DBD5B932E0F2C6E7C5F6C3650372 /* FSVanView.h */,
+				1A1067DE392CE4D25316E759D34CACFA /* FSVanView.m */,
+				3D50696D50704DA0CDBA730ABC0C3518 /* FSViewManager.h */,
+				2752B3D8FB5781C34AA721501CD0A2D7 /* FSViewManager.m */,
+				AF653A2F107A26A632EC69F5CFABACCA /* PHTextView.h */,
+				339AA88C65F3E82AFCB0D71866A9E96E /* PHTextView.m */,
+				5F4286C5631374993469FB895E3D821D /* UIView+ModalAnimation.h */,
+				0550F1C6DF160DDB4378938F14185E85 /* UIView+ModalAnimation.m */,
+				A10F7FEFD185F68422CCF8A8CFAC76C1 /* UIViewExt.h */,
+				1AF73FC2D7FFD7D97C29825E33150AFF /* UIViewExt.m */,
+				5A40547190B7A4A6362A5E2904D51104 /* Pod */,
+				7CECDC647070C8CBC166FEF698322B59 /* Support Files */,
+			);
+			name = FSUIKit;
+			path = ../../../FSUIKit;
+			sourceTree = "<group>";
+		};
 		F948A40EBE3F3C48868FA43413FA966A /* FSCalculator */ = {
 			isa = PBXGroup;
 			children = (
@@ -646,15 +652,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0195FAB80A4008B5631CADBCCC6D156D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D16EFFB452E2918E7BF8EE62448AEAB /* FSCircleLayer.h in Headers */,
-				6B7681A9FC4892D1AE154391D561008B /* FSGestureView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		027CB8F4DD55CAA04BC48B39CFD0B005 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -705,6 +702,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B4ACAF7E12B900DDF309662B691A8F3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CFEC0A610B920D205C5C07E77F68BA /* FSCircleLayer.h in Headers */,
+				D2878A6EAE23A0190A672C9085A09514 /* FSGestureView.h in Headers */,
+				D2F59CF3F7AA1BBABD711A03B787AE25 /* FSUseGestureView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CD6E4290455480E7D4052D6941F88590 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -750,23 +757,6 @@
 			name = FSCalculator;
 			productName = FSCalculator;
 			productReference = 00266AC80B8971DAFBCE7915845304B9 /* libFSCalculator.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		5CDA6CA823E52A0687B414FCEC607AD0 /* FSGesture */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 01DEF3CBA4A166D46A6CAD616C8C15FA /* Build configuration list for PBXNativeTarget "FSGesture" */;
-			buildPhases = (
-				0195FAB80A4008B5631CADBCCC6D156D /* Headers */,
-				59A3D5878456A2D2E0A84396636D1B0D /* Sources */,
-				4533EEF10CF64C7302E6750FF4695651 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FSGesture;
-			productName = FSGesture;
-			productReference = EA2698E4B6D60A76013F7E4FC7D0285E /* libFSGesture.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		914AF448A3FBA6D5E34BFE147EC416B8 /* FSWindow */ = {
@@ -825,6 +815,23 @@
 			productReference = E23F49ECA6FF1152D3DAF3CF72F2F008 /* libMJRefresh.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		E1EC8C45C7012031B8334C246C4C1D08 /* FSGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C98C4D0E9B6DEEB0E80392460026522 /* Build configuration list for PBXNativeTarget "FSGesture" */;
+			buildPhases = (
+				B4ACAF7E12B900DDF309662B691A8F3D /* Headers */,
+				9E42CDC1E5CACD1390679E394E6F5653 /* Sources */,
+				E5925438825314F4D50B41F72D75150D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSGesture;
+			productName = FSGesture;
+			productReference = EA2698E4B6D60A76013F7E4FC7D0285E /* libFSGesture.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		ECF44F64F3A64A901917DDF3B2D766DB /* FSUIKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DC7B6FF0A2A57578C8DDA6F1F1271D5 /* Build configuration list for PBXNativeTarget "FSUIKit" */;
@@ -867,7 +874,7 @@
 			projectRoot = "";
 			targets = (
 				461962E2B44222BBECE0FCAA9EBE9803 /* FSCalculator */,
-				5CDA6CA823E52A0687B414FCEC607AD0 /* FSGesture */,
+				E1EC8C45C7012031B8334C246C4C1D08 /* FSGesture */,
 				ECF44F64F3A64A901917DDF3B2D766DB /* FSUIKit */,
 				914AF448A3FBA6D5E34BFE147EC416B8 /* FSWindow */,
 				B46419DC1F3E42A7E7A186719AE9EE02 /* MJRefresh */,
@@ -892,16 +899,6 @@
 			files = (
 				7C9D5D9C098E50906AA21628527D74C6 /* FSWindow-dummy.m in Sources */,
 				C850E16532F653E9F250C4DACA221BAE /* FSWindow.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59A3D5878456A2D2E0A84396636D1B0D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA587FB96AD4A2967F3FDF3B852EFDC9 /* FSCircleLayer.m in Sources */,
-				C7370C99A27DB062AFCD322D7771C6A9 /* FSGesture-dummy.m in Sources */,
-				FBB05742E6A2DB2139C2814CC81E33D0 /* FSGestureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -930,6 +927,17 @@
 				652E40D56CB70BBC56E47B6A008F42FE /* PHTextView.m in Sources */,
 				630B5D4E55B5C71C7B66CA5664035045 /* UIView+ModalAnimation.m in Sources */,
 				F4E30EAF8FAC09CD7CD734B286B69F27 /* UIViewExt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E42CDC1E5CACD1390679E394E6F5653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B387B26BFE6446F751DDDFA91B3E24 /* FSCircleLayer.m in Sources */,
+				7E5339EF67EDB5836B33B1102E25C68E /* FSGesture-dummy.m in Sources */,
+				EFC622B5587B776C19032DDBE17D89C7 /* FSGestureView.m in Sources */,
+				1441C35A7801DFD652325C265148ACBD /* FSUseGestureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -986,7 +994,7 @@
 		21C3292C4E80A848ED2136ED71B7F906 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FSGesture;
-			target = 5CDA6CA823E52A0687B414FCEC607AD0 /* FSGesture */;
+			target = E1EC8C45C7012031B8334C246C4C1D08 /* FSGesture */;
 			targetProxy = 09244B028195F2FDFF8A4A108003488D /* PBXContainerItemProxy */;
 		};
 		7A2146A757166D533A66EE0C91834024 /* PBXTargetDependency */ = {
@@ -1024,7 +1032,7 @@
 /* Begin XCBuildConfiguration section */
 		03F3D2E1B5D5404A7F6E2D7BDDC339A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DBC49B0775D96DED1BC44F283914A01 /* FSUIKit.xcconfig */;
+			baseConfigurationReference = 05562CE2EAA579AD4195D3A92540649A /* FSUIKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1037,6 +1045,29 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = FSUIKit;
 				PRODUCT_NAME = FSUIKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37E5A802EA66F79321C84FE74DD4F623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5C77D7EA5A4B1EC4CFF8225A15EAD7 /* FSGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSGesture/FSGesture-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSGesture;
+				PRODUCT_NAME = FSGesture;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1094,7 +1125,7 @@
 		};
 		4D6D1F478F287C222D661E44B219EF41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DBC49B0775D96DED1BC44F283914A01 /* FSUIKit.xcconfig */;
+			baseConfigurationReference = 05562CE2EAA579AD4195D3A92540649A /* FSUIKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1107,30 +1138,6 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = FSUIKit;
 				PRODUCT_NAME = FSUIKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4FAD4C319F7D7DE4D8981785060F63FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10D2425D9AE5373456F748B8197A8707 /* FSGesture.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/FSGesture/FSGesture-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = FSGesture;
-				PRODUCT_NAME = FSGesture;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1250,29 +1257,6 @@
 			};
 			name = Release;
 		};
-		84A8B64133F8220837888021394F130B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10D2425D9AE5373456F748B8197A8707 /* FSGesture.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/FSGesture/FSGesture-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = FSGesture;
-				PRODUCT_NAME = FSGesture;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1338,6 +1322,30 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		90F932A46D37AA9C3B0D07BBD61C9A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5C77D7EA5A4B1EC4CFF8225A15EAD7 /* FSGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FSGesture/FSGesture-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FSGesture;
+				PRODUCT_NAME = FSGesture;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		93CC207B360D062B23A2F2C85FAA4287 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1431,11 +1439,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01DEF3CBA4A166D46A6CAD616C8C15FA /* Build configuration list for PBXNativeTarget "FSGesture" */ = {
+		2C98C4D0E9B6DEEB0E80392460026522 /* Build configuration list for PBXNativeTarget "FSGesture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84A8B64133F8220837888021394F130B /* Debug */,
-				4FAD4C319F7D7DE4D8981785060F63FD /* Release */,
+				37E5A802EA66F79321C84FE74DD4F623 /* Debug */,
+				90F932A46D37AA9C3B0D07BBD61C9A13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
