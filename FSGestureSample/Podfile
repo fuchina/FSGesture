@@ -1,8 +1,9 @@
-platform:ios,'8.0'
+platform:ios,'9.0'
 
 target 'FSGestureSample' do
 
   pod 'FSGesture', :path => '../'
+  pod 'FSUIKit', :path => '../../FSUIKit'
 
 end
 

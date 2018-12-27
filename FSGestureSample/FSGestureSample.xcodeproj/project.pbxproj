@@ -7,91 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71BC240021B29F59008B52A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BC23FF21B29F59008B52A1 /* AppDelegate.m */; };
-		71BC240321B29F59008B52A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BC240221B29F59008B52A1 /* ViewController.m */; };
-		71BC240621B29F59008B52A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BC240421B29F59008B52A1 /* Main.storyboard */; };
-		71BC240821B29F5B008B52A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BC240721B29F5B008B52A1 /* Assets.xcassets */; };
-		71BC240B21B29F5B008B52A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BC240921B29F5B008B52A1 /* LaunchScreen.storyboard */; };
-		71BC240E21B29F5B008B52A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BC240D21B29F5B008B52A1 /* main.m */; };
-		83916D7A510B3542A9C54E34 /* libPods-FSGestureSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 564EAB29E03CA0DDDA9BD9FA /* libPods-FSGestureSample.a */; };
+		2D37B1A121D4DC4600045808 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D37B1A021D4DC4600045808 /* AppDelegate.m */; };
+		2D37B1A421D4DC4600045808 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D37B1A321D4DC4600045808 /* ViewController.m */; };
+		2D37B1A721D4DC4600045808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D37B1A521D4DC4600045808 /* Main.storyboard */; };
+		2D37B1A921D4DC4800045808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D37B1A821D4DC4800045808 /* Assets.xcassets */; };
+		2D37B1AC21D4DC4800045808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D37B1AA21D4DC4800045808 /* LaunchScreen.storyboard */; };
+		2D37B1AF21D4DC4800045808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D37B1AE21D4DC4800045808 /* main.m */; };
+		6FC10FCD015C6B386F45B12B /* libPods-FSGestureSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB25C7FDCAD6940B4ECB5B4 /* libPods-FSGestureSample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		564EAB29E03CA0DDDA9BD9FA /* libPods-FSGestureSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FSGestureSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		71BC23FB21B29F59008B52A1 /* FSGestureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSGestureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		71BC23FE21B29F59008B52A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		71BC23FF21B29F59008B52A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		71BC240121B29F59008B52A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71BC240221B29F59008B52A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		71BC240521B29F59008B52A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		71BC240721B29F5B008B52A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		71BC240A21B29F5B008B52A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		71BC240C21B29F5B008B52A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71BC240D21B29F5B008B52A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ABC757EAC3358819DBF25CF3 /* Pods-FSGestureSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSGestureSample.release.xcconfig"; path = "Target Support Files/Pods-FSGestureSample/Pods-FSGestureSample.release.xcconfig"; sourceTree = "<group>"; };
-		CB32B8D10E8369A340EBA386 /* Pods-FSGestureSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSGestureSample.debug.xcconfig"; path = "Target Support Files/Pods-FSGestureSample/Pods-FSGestureSample.debug.xcconfig"; sourceTree = "<group>"; };
+		2D37B19C21D4DC4600045808 /* FSGestureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSGestureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D37B19F21D4DC4600045808 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D37B1A021D4DC4600045808 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D37B1A221D4DC4600045808 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D37B1A321D4DC4600045808 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D37B1A621D4DC4600045808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D37B1A821D4DC4800045808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D37B1AB21D4DC4800045808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D37B1AD21D4DC4800045808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D37B1AE21D4DC4800045808 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB6F9947713C5C462676A287 /* Pods-FSGestureSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSGestureSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSGestureSample/Pods-FSGestureSample.release.xcconfig"; sourceTree = "<group>"; };
+		E71CD401F06F1613DA67835F /* Pods-FSGestureSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSGestureSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FSGestureSample/Pods-FSGestureSample.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB25C7FDCAD6940B4ECB5B4 /* libPods-FSGestureSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FSGestureSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		71BC23F821B29F59008B52A1 /* Frameworks */ = {
+		2D37B19921D4DC4600045808 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83916D7A510B3542A9C54E34 /* libPods-FSGestureSample.a in Frameworks */,
+				6FC10FCD015C6B386F45B12B /* libPods-FSGestureSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		71BC23F221B29F59008B52A1 = {
+		2D37B19321D4DC4600045808 = {
 			isa = PBXGroup;
 			children = (
-				71BC23FD21B29F59008B52A1 /* FSGestureSample */,
-				71BC23FC21B29F59008B52A1 /* Products */,
-				9C751CFAC15166C3623FDAA4 /* Pods */,
-				F8AA2A2E5651B9D49E177C38 /* Frameworks */,
+				2D37B19E21D4DC4600045808 /* FSGestureSample */,
+				2D37B19D21D4DC4600045808 /* Products */,
+				636F8259D10B2C6AE3B650D6 /* Pods */,
+				7524221E05F48D5104D34E02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		71BC23FC21B29F59008B52A1 /* Products */ = {
+		2D37B19D21D4DC4600045808 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71BC23FB21B29F59008B52A1 /* FSGestureSample.app */,
+				2D37B19C21D4DC4600045808 /* FSGestureSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		71BC23FD21B29F59008B52A1 /* FSGestureSample */ = {
+		2D37B19E21D4DC4600045808 /* FSGestureSample */ = {
 			isa = PBXGroup;
 			children = (
-				71BC23FE21B29F59008B52A1 /* AppDelegate.h */,
-				71BC23FF21B29F59008B52A1 /* AppDelegate.m */,
-				71BC240121B29F59008B52A1 /* ViewController.h */,
-				71BC240221B29F59008B52A1 /* ViewController.m */,
-				71BC240421B29F59008B52A1 /* Main.storyboard */,
-				71BC240721B29F5B008B52A1 /* Assets.xcassets */,
-				71BC240921B29F5B008B52A1 /* LaunchScreen.storyboard */,
-				71BC240C21B29F5B008B52A1 /* Info.plist */,
-				71BC240D21B29F5B008B52A1 /* main.m */,
+				2D37B19F21D4DC4600045808 /* AppDelegate.h */,
+				2D37B1A021D4DC4600045808 /* AppDelegate.m */,
+				2D37B1A221D4DC4600045808 /* ViewController.h */,
+				2D37B1A321D4DC4600045808 /* ViewController.m */,
+				2D37B1A521D4DC4600045808 /* Main.storyboard */,
+				2D37B1A821D4DC4800045808 /* Assets.xcassets */,
+				2D37B1AA21D4DC4800045808 /* LaunchScreen.storyboard */,
+				2D37B1AD21D4DC4800045808 /* Info.plist */,
+				2D37B1AE21D4DC4800045808 /* main.m */,
 			);
 			path = FSGestureSample;
 			sourceTree = "<group>";
 		};
-		9C751CFAC15166C3623FDAA4 /* Pods */ = {
+		636F8259D10B2C6AE3B650D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB32B8D10E8369A340EBA386 /* Pods-FSGestureSample.debug.xcconfig */,
-				ABC757EAC3358819DBF25CF3 /* Pods-FSGestureSample.release.xcconfig */,
+				E71CD401F06F1613DA67835F /* Pods-FSGestureSample.debug.xcconfig */,
+				AB6F9947713C5C462676A287 /* Pods-FSGestureSample.release.xcconfig */,
 			);
 			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
-		F8AA2A2E5651B9D49E177C38 /* Frameworks */ = {
+		7524221E05F48D5104D34E02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				564EAB29E03CA0DDDA9BD9FA /* libPods-FSGestureSample.a */,
+				FFB25C7FDCAD6940B4ECB5B4 /* libPods-FSGestureSample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,14 +98,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71BC23FA21B29F59008B52A1 /* FSGestureSample */ = {
+		2D37B19B21D4DC4600045808 /* FSGestureSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71BC241121B29F5B008B52A1 /* Build configuration list for PBXNativeTarget "FSGestureSample" */;
+			buildConfigurationList = 2D37B1B221D4DC4800045808 /* Build configuration list for PBXNativeTarget "FSGestureSample" */;
 			buildPhases = (
-				1E9853CB51884F2A6CD66C56 /* [CP] Check Pods Manifest.lock */,
-				71BC23F721B29F59008B52A1 /* Sources */,
-				71BC23F821B29F59008B52A1 /* Frameworks */,
-				71BC23F921B29F59008B52A1 /* Resources */,
+				DFA5441856C993E77E79CB9C /* [CP] Check Pods Manifest.lock */,
+				2D37B19821D4DC4600045808 /* Sources */,
+				2D37B19921D4DC4600045808 /* Frameworks */,
+				2D37B19A21D4DC4600045808 /* Resources */,
+				7745B5C7159D977D043183F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -114,24 +114,24 @@
 			);
 			name = FSGestureSample;
 			productName = FSGestureSample;
-			productReference = 71BC23FB21B29F59008B52A1 /* FSGestureSample.app */;
+			productReference = 2D37B19C21D4DC4600045808 /* FSGestureSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		71BC23F321B29F59008B52A1 /* Project object */ = {
+		2D37B19421D4DC4600045808 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = FudonFuchina;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = fudongdong;
 				TargetAttributes = {
-					71BC23FA21B29F59008B52A1 = {
-						CreatedOnToolsVersion = 10.1;
+					2D37B19B21D4DC4600045808 = {
+						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = 71BC23F621B29F59008B52A1 /* Build configuration list for PBXProject "FSGestureSample" */;
+			buildConfigurationList = 2D37B19721D4DC4600045808 /* Build configuration list for PBXProject "FSGestureSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,31 +139,53 @@
 				en,
 				Base,
 			);
-			mainGroup = 71BC23F221B29F59008B52A1;
-			productRefGroup = 71BC23FC21B29F59008B52A1 /* Products */;
+			mainGroup = 2D37B19321D4DC4600045808;
+			productRefGroup = 2D37B19D21D4DC4600045808 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71BC23FA21B29F59008B52A1 /* FSGestureSample */,
+				2D37B19B21D4DC4600045808 /* FSGestureSample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		71BC23F921B29F59008B52A1 /* Resources */ = {
+		2D37B19A21D4DC4600045808 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71BC240B21B29F5B008B52A1 /* LaunchScreen.storyboard in Resources */,
-				71BC240821B29F5B008B52A1 /* Assets.xcassets in Resources */,
-				71BC240621B29F59008B52A1 /* Main.storyboard in Resources */,
+				2D37B1AC21D4DC4800045808 /* LaunchScreen.storyboard in Resources */,
+				2D37B1A921D4DC4800045808 /* Assets.xcassets in Resources */,
+				2D37B1A721D4DC4600045808 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E9853CB51884F2A6CD66C56 /* [CP] Check Pods Manifest.lock */ = {
+		7745B5C7159D977D043183F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FSGestureSample/Pods-FSGestureSample-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FSGestureSample/Pods-FSGestureSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFA5441856C993E77E79CB9C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -188,31 +210,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		71BC23F721B29F59008B52A1 /* Sources */ = {
+		2D37B19821D4DC4600045808 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71BC240321B29F59008B52A1 /* ViewController.m in Sources */,
-				71BC240E21B29F5B008B52A1 /* main.m in Sources */,
-				71BC240021B29F59008B52A1 /* AppDelegate.m in Sources */,
+				2D37B1A421D4DC4600045808 /* ViewController.m in Sources */,
+				2D37B1AF21D4DC4800045808 /* main.m in Sources */,
+				2D37B1A121D4DC4600045808 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		71BC240421B29F59008B52A1 /* Main.storyboard */ = {
+		2D37B1A521D4DC4600045808 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				71BC240521B29F59008B52A1 /* Base */,
+				2D37B1A621D4DC4600045808 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		71BC240921B29F5B008B52A1 /* LaunchScreen.storyboard */ = {
+		2D37B1AA21D4DC4800045808 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				71BC240A21B29F5B008B52A1 /* Base */,
+				2D37B1AB21D4DC4800045808 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -220,7 +242,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		71BC240F21B29F5B008B52A1 /* Debug */ = {
+		2D37B1B021D4DC4800045808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -279,7 +301,7 @@
 			};
 			name = Debug;
 		};
-		71BC241021B29F5B008B52A1 /* Release */ = {
+		2D37B1B121D4DC4800045808 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -324,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -332,9 +354,9 @@
 			};
 			name = Release;
 		};
-		71BC241221B29F5B008B52A1 /* Debug */ = {
+		2D37B1B321D4DC4800045808 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB32B8D10E8369A340EBA386 /* Pods-FSGestureSample.debug.xcconfig */;
+			baseConfigurationReference = E71CD401F06F1613DA67835F /* Pods-FSGestureSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -343,15 +365,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fuhope.FSGestureSample;
+				PRODUCT_BUNDLE_IDENTIFIER = mt.FSGestureSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		71BC241321B29F5B008B52A1 /* Release */ = {
+		2D37B1B421D4DC4800045808 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABC757EAC3358819DBF25CF3 /* Pods-FSGestureSample.release.xcconfig */;
+			baseConfigurationReference = AB6F9947713C5C462676A287 /* Pods-FSGestureSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -360,7 +382,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fuhope.FSGestureSample;
+				PRODUCT_BUNDLE_IDENTIFIER = mt.FSGestureSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -369,25 +391,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		71BC23F621B29F59008B52A1 /* Build configuration list for PBXProject "FSGestureSample" */ = {
+		2D37B19721D4DC4600045808 /* Build configuration list for PBXProject "FSGestureSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71BC240F21B29F5B008B52A1 /* Debug */,
-				71BC241021B29F5B008B52A1 /* Release */,
+				2D37B1B021D4DC4800045808 /* Debug */,
+				2D37B1B121D4DC4800045808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71BC241121B29F5B008B52A1 /* Build configuration list for PBXNativeTarget "FSGestureSample" */ = {
+		2D37B1B221D4DC4800045808 /* Build configuration list for PBXNativeTarget "FSGestureSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71BC241221B29F5B008B52A1 /* Debug */,
-				71BC241321B29F5B008B52A1 /* Release */,
+				2D37B1B321D4DC4800045808 /* Debug */,
+				2D37B1B421D4DC4800045808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 71BC23F321B29F59008B52A1 /* Project object */;
+	rootObject = 2D37B19421D4DC4600045808 /* Project object */;
 }

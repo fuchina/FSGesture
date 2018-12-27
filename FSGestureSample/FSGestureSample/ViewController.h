@@ -2,8 +2,8 @@
 //  ViewController.h
 //  FSGestureSample
 //
-//  Created by FudonFuchina on 2018/12/1.
-//  Copyright © 2018年 FudonFuchina. All rights reserved.
+//  Created by fudongdong on 2018/12/27.
+//  Copyright © 2018年 fudongdong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
