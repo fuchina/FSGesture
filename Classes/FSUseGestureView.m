@@ -10,8 +10,14 @@
 
 @implementation FSUseGestureView{
     FSGestureView   *_g;
-    UILabel         *_label;
-    UILabel         *_titleLabel;
+    
+    // 用于修改密码
+    NSInteger       _changeFlag;
+    NSString        *_modifyPassword;
+    
+    // 用于设置密码
+    NSInteger       _setFlag;
+    NSString        *_setPassword;
 }
 
 #if DEBUG
@@ -30,23 +36,23 @@
 
 - (void)designViews{
     CGFloat w = UIScreen.mainScreen.bounds.size.width;
+    CGFloat statusBarHeight = UIApplication.sharedApplication.statusBarFrame.size.height;
     
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    [button setTitle:@"取消" forState:UIControlStateNormal];
-    button.frame = CGRectMake(0, 20, 60, 44);
-    button.titleLabel.font = [UIFont systemFontOfSize:17];
-    [button addTarget:self action:@selector(cancelClick:) forControlEvents:UIControlEventTouchUpInside];
-    [self addSubview:button];
+    _leftButton = [UIButton buttonWithType:UIButtonTypeSystem];
+    [_leftButton setTitle:@"取消" forState:UIControlStateNormal];
+    _leftButton.frame = CGRectMake(0, statusBarHeight, 60, 44);
+    _leftButton.titleLabel.font = [UIFont systemFontOfSize:17];
+    [_leftButton addTarget:self action:@selector(cancelClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self addSubview:_leftButton];
     
-    UIButton *forget = [UIButton buttonWithType:UIButtonTypeSystem];
-    [forget setTitle:@"忘记？" forState:UIControlStateNormal];
-    forget.frame = CGRectMake(w - 60, 20, 60, 44);
-    forget.tag = 1;
-    forget.titleLabel.font = [UIFont systemFontOfSize:17];
-    [forget addTarget:self action:@selector(cancelClick:) forControlEvents:UIControlEventTouchUpInside];
-    [self addSubview:forget];
+    _rightButton = [UIButton buttonWithType:UIButtonTypeSystem];
+    [_rightButton setTitle:@"忘记？" forState:UIControlStateNormal];
+    _rightButton.frame = CGRectMake(w - 60, statusBarHeight, 60, 44);
+    _rightButton.titleLabel.font = [UIFont systemFontOfSize:17];
+    [_rightButton addTarget:self action:@selector(cancelClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self addSubview:_rightButton];
     
-    _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(60, 20, w - 120, 44)];
+    _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(60, statusBarHeight, w - 120, 44)];
     if (@available(iOS 8.2, *)) {
         _titleLabel.font = [UIFont systemFontOfSize:17 weight:UIFontWeightBold];
     }
@@ -55,29 +61,27 @@
     
     CALayer *layer = CALayer.layer;
     layer.backgroundColor = UIColor.lightGrayColor.CGColor;
-    layer.frame = CGRectMake(0, 64, w, 0.4);
+    layer.frame = CGRectMake(0, statusBarHeight + 44, w, 0.4);
     [self.layer addSublayer:layer];
     
-    _label = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, w - 20, 40)];
-    _label.textColor = UIColor.redColor;
-    _label.textAlignment = NSTextAlignmentCenter;
-    [self addSubview:_label];
+    _showLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, statusBarHeight + 80, w - 20, 40)];
+    _showLabel.textAlignment = NSTextAlignmentCenter;
+    [self addSubview:_showLabel];
     
-    _g = [[FSGestureView alloc] initWithFrame:CGRectMake(20, 150, w - 40, w - 40)];
+    _g = [[FSGestureView alloc] initWithFrame:CGRectMake(20, statusBarHeight + 130, w - 40, w - 40)];
     [self addSubview:_g];
-    __weak typeof(self)weakSelf = self;
+    __weak typeof(self)this = self;
     [_g setResult:^(NSString *bResult) {
-        [weakSelf handleResult:bResult];
+        [this handleResult:bResult];
     }];
-}
-
-- (void)setTitle:(NSString *)title{
-    _titleLabel.text = title;
+    _g.start = ^{
+        this.showLabel.text = nil;
+    };    
 }
 
 - (void)cancelClick:(UIButton *)button{
     if (self.buttonClick) {
-        self.buttonClick(self, button.tag == 0);
+        self.buttonClick(self, button == _leftButton);
     }
 }
 
@@ -85,18 +89,51 @@
     if (self.mode == FSUseGestureViewModeVerify) {
         [self handleVerify:result];
     }else if (self.mode == FSUseGestureViewModeChange) {
-        [self handleSet:result];
-    }else if (self.mode == FSUseGestureViewModeSet){
         [self handleChange:result];
+    }else if (self.mode == FSUseGestureViewModeSet){
+        [self handleSet:result];
     }
 }
 
 - (void)handleSet:(NSString *)result{
-    
+    if (_setFlag == 0) {
+        _setFlag ++;
+        _setPassword = result;
+        [self showLabelText:@"请再次输入确认" textColor:UIColor.blackColor];
+    }else if (_setFlag == 1){
+        if ([result isEqualToString:_setPassword]) {
+            if (self.setSuccess) {
+                self.setSuccess(self);
+            }
+        }else{
+            _setFlag = 0;
+            [self showLabelText:@"两次输入不一致，请重新输入" textColor:UIColor.redColor];
+        }
+    }
 }
 
 - (void)handleChange:(NSString *)result{
-    
+    if (_changeFlag == 0) {
+        if ([result isEqualToString:self.password]) {
+            _changeFlag ++;
+            [self showLabelText:@"请设置新的手势密码" textColor:UIColor.blackColor];
+        }else{
+            [self showLabelText:@"原密码校验错误，请重新输入" textColor:UIColor.redColor];
+        }
+    }else if (_changeFlag == 1){
+        _changeFlag ++;
+        _modifyPassword = result;
+        [self showLabelText:@"请再次输入确认" textColor:UIColor.blackColor];
+    }else if (_changeFlag == 2){
+        if ([result isEqualToString:_modifyPassword]) {
+            if (self.changeSuccess) {
+                self.changeSuccess(self);
+            }
+        }else{
+            _changeFlag = 1;
+            [self showLabelText:@"两次输入不一致，请重新输入" textColor:UIColor.redColor];
+        }
+    }
 }
 
 - (void)handleVerify:(NSString *)result{
@@ -106,8 +143,13 @@
     }
     
     if (verifySuccess == NO) {
-        _label.text = @"密码输入错误，请重新输入";
+        [self showLabelText:@"密码输入错误，请重新输入" textColor:UIColor.redColor];
     }
+}
+
+- (void)showLabelText:(NSString *)text textColor:(UIColor *)color{
+    _showLabel.text = text;
+    _showLabel.textColor = color;
 }
 
 /*

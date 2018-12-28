@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "FSUseGestureView.h"
 #import "UIView+ModalAnimation.h"
+#import "FSUseGestureView+Factory.h"
 
 @interface ViewController ()
 
@@ -28,27 +29,64 @@
 }
 
 - (void)buttonClick{
+    [self verify];
+}
+
+- (void)set{
     FSUseGestureView *use = [[FSUseGestureView alloc] initWithFrame:CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height)];
-    use.mode = FSUseGestureViewModeVerify;
-    use.password = @"123";
-    [use setTitle:@"验证手势密码"];
+    use.mode = FSUseGestureViewModeSet;
+    use.showLabel.text = @"请设置新密码";
+    use.titleLabel.text = @"设置手势密码";
     [self.view addSubview:use];
     use.backgroundColor = UIColor.whiteColor;
-    use.verifySuccess = ^(FSUseGestureView * _Nonnull view, BOOL verifySuccess) {
-        if (verifySuccess) {
-            [view popAnimated:YES completion:^(UIView * _Nonnull modalView) {
-                [modalView removeFromSuperview];
-            }];
-        }
+    use.setSuccess = ^(FSUseGestureView * _Nonnull view) {
+        [view popAnimated:YES completion:^(UIView * _Nonnull modalView) {
+            [modalView removeFromSuperview];
+        }];
     };
     use.buttonClick = ^(FSUseGestureView * _Nonnull view, BOOL isLeft) {
         if (isLeft) {
             [view popAnimated:YES completion:^(UIView * _Nonnull modalView) {
                 [modalView removeFromSuperview];
-            }];            
+            }];
         }
     };
-    [use pushAnimated:YES completion:nil];
+    [use pushAnimated:YES completion:^(UIView * _Nonnull modalView) {
+        NSLog(@"modalView");
+    }];
+}
+
+- (void)change{
+    FSUseGestureView *use = [[FSUseGestureView alloc] initWithFrame:CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height)];
+    use.mode = FSUseGestureViewModeChange;
+    use.password = @"123";
+    use.showLabel.text = @"请输入原密码";
+    use.titleLabel.text = @"修改手势密码";
+    [self.view addSubview:use];
+    use.backgroundColor = UIColor.whiteColor;
+    use.changeSuccess = ^(FSUseGestureView * _Nonnull view) {
+        [view popAnimated:YES completion:^(UIView * _Nonnull modalView) {
+            [modalView removeFromSuperview];
+        }];
+    };
+    use.buttonClick = ^(FSUseGestureView * _Nonnull view, BOOL isLeft) {
+        if (isLeft) {
+            [view popAnimated:YES completion:^(UIView * _Nonnull modalView) {
+                [modalView removeFromSuperview];
+            }];
+        }
+    };
+    [use pushAnimated:YES completion:^(UIView * _Nonnull modalView) {
+        NSLog(@"modalView");
+    }];
+}
+
+- (void)verify{
+    [FSUseGestureView verifyOnSuperView:self.view password:@"123" titleText:@"验证手势密码" success:^(FSUseGestureView * _Nonnull view, BOOL verifySuccess) {
+        
+    } buttonClick:^(FSUseGestureView * _Nonnull view, BOOL isLeft) {
+        
+    }];
 }
 
 @end
