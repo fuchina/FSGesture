@@ -7,13 +7,17 @@
 
 #import "FSUseGestureView.h"
 
-
 @interface FSUseGestureView (Factory)
 
 
 // 校验
-+ (void)verify:(UIView *)superView password:(NSString *)password;
-+ (void)verify:(UIView *)superView password:(NSString *)password success:(void(^)(FSUseGestureView * view, BOOL verifySuccess))success buttonClick:(void(^)(FSUseGestureView * view, BOOL isLeft))buttonClick;
++ (void)verify:(UIView *)superView password:(NSString *)password success:(void(^)(FSUseGestureView * view, BOOL verifySuccess))success;
+
+// 修改
++ (void)change:(UIView *)superView password:(NSString *)password completion:(void(^)(FSUseGestureView *view))completion;
+
+// 设置
++ (void)setup:(UIView *)superView completion:(void(^)(FSUseGestureView *view))completion;
 
 @end
 
