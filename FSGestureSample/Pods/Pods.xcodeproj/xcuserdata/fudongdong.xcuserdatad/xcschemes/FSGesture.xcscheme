@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63569358FAAD1D466C72D1CDF98B607C"
+               BlueprintIdentifier = "5CDA6CA823E52A0687B414FCEC607AD0"
                BlueprintName = "FSGesture"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libFSGesture.a">
