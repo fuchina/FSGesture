@@ -9,7 +9,7 @@
 #import "FSGestureView.h"
 #import "FSCircleLayer.h"
 
-@implementation FSGestureView{
+@implementation FSGestureView {
     NSMutableArray  *_points;
     NSMutableArray  *_values;
     CGPoint         _currentPoint;
@@ -17,7 +17,7 @@
     UIColor         *_color;
 }
 
-- (instancetype)initWithFrame:(CGRect)frame{
+- (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         [self gestureDesignViews];
@@ -25,16 +25,16 @@
     return self;
 }
 
-- (void)gestureDesignViews{
-    _color = [UIColor colorWithRed:18/255.0 green:152/255.0 blue:233/255.0 alpha:1];
+- (void)gestureDesignViews {
+    _color = [UIColor colorWithRed: 18 / 255.0 green: 152 / 255.0 blue: 233 / 255.0 alpha: 1];
     self.backgroundColor = [UIColor whiteColor];
     _points = [[NSMutableArray alloc] init];
     _values = [[NSMutableArray alloc] init];
     
     CGSize size = self.bounds.size;
-    CGFloat space = size.width * 2.0 / 17;
-    CGFloat layerWidth = size.width * 3.0 / 17;
-    CGFloat zone = size.width * 5.0 / 17;
+    CGFloat space = 10; //size.width * 2.0 / 17;
+    CGFloat layerWidth = 60; //size.width * 3.0 / 17;
+    CGFloat zone = 100;//size.width * 5.0 / 17;
     for (int x = 0; x < 9; x ++) {
         FSCircleLayer *layer = [[FSCircleLayer alloc] init];
         layer.index = x;
@@ -47,7 +47,7 @@
     }
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesBegan:touches withEvent:event];
     [self handleTouches:touches];
     if (self.start) {
@@ -55,13 +55,13 @@
     }
 }
 
-- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesMoved:touches withEvent:event];
     [self handleTouches:touches];
     [self setNeedsDisplay];
 }
 
-- (void)handleTouches:(NSSet<UITouch *>*)touches{
+- (void)handleTouches:(NSSet<UITouch *>*)touches {
     UITouch *touch = [touches anyObject];
     CGPoint point = [touch locationInView:self];
     _currentPoint = point;
@@ -72,13 +72,13 @@
     }
 }
 
-- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesEnded:touches withEvent:event];
     [self resetCircleLayes:_values];
     [self setNeedsDisplay];
 }
 
-- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesEnded:touches withEvent:event];
     
     NSMutableString *str = [[NSMutableString alloc] init];
@@ -91,17 +91,18 @@
     }
 }
 
-- (void)resetCircleLayes:(NSMutableArray<FSCircleLayer *> *)layers{
+- (void)resetCircleLayes:(NSMutableArray<FSCircleLayer *> *)layers {
     for (FSCircleLayer *layer in layers) {
         [layer setStatus:NO];
     }
+    
     if ([layers isKindOfClass:NSMutableArray.class]) {
         [layers removeAllObjects];
     }
     [self setNeedsDisplay];
 }
 
-- (FSCircleLayer *)pointInCircle:(CGPoint)point{
+- (FSCircleLayer *)pointInCircle:(CGPoint)point {
     for (FSCircleLayer *layer in _points) {
         CGRect frame = layer.frame;
         if (CGRectContainsPoint(frame, point)) {
@@ -120,7 +121,7 @@
     [[UIColor blueColor] setFill];
     [[UIColor redColor] setStroke];
     CGContextSetLineWidth(contextRef, 1);
-    path.lineJoinStyle = kCGLineCapButt;
+    path.lineJoinStyle = kCGLineJoinMiter;
     [_color set];
 
     for (int i = 0; i < _values.count; i++) {
