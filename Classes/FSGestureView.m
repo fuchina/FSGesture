@@ -31,7 +31,6 @@
     _points = [[NSMutableArray alloc] init];
     _values = [[NSMutableArray alloc] init];
     
-    CGSize size = self.bounds.size;
     CGFloat space = 10; //size.width * 2.0 / 17;
     CGFloat layerWidth = 60; //size.width * 3.0 / 17;
     CGFloat zone = 100;//size.width * 5.0 / 17;
