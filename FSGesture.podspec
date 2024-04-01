@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author           = { 'fudon' => '1245102331@qq.com' }
   s.source           = { :git => 'https://github.com/fuchina/FSGesture.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
   s.source_files = 'Classes/*'
   s.frameworks = 'UIKit'
   
